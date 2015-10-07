@@ -1,0 +1,355 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{John}
+\familyname{Doe}
+\title{Resumé title (optional)}               % optional, remove the line if not wanted
+\address{street and number}{postcode city}    % optional, remove the line if not wanted
+\mobile{mobile (optional)}                    % optional, remove the line if not wanted
+\phone{phone (optional)}                      % optional, remove the line if not wanted
+\fax{fax (optional)}                          % optional, remove the line if not wanted
+\email{email (optional)}                      % optional, remove the line if not wanted
+\homepage{homepage (optional)}                % optional, remove the line if not wanted
+\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+%\photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+\quote{Some quote (optional)}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+\section{Part 1}
+
+
+
+\section{ Personal Data}
+%
+% NOTE: Mind where the & separators and \\ breaks are in the following
+%       table.
+%
+% ALSO: \rcollength is the width of the right column of the table
+%       (adjust it to your liking; default is 1.85in).
+%
+\newlength{\rcollength}\setlength{\rcollength}{1.8in}%
+%
+\begin{tabular}[t]{@{}p{\textwidth-\rcollength}p{\rcollength}}
+			Johns Hopkins School of Public Health, Department of Biostatistics: & \textit{Room:} E3148  \\
+                          600 N Wolfe Street           & \textit{Cell:} (610) 291-7685 \\
+
+  Baltimore, ~MD~21231~USA         & \textit{E-mail:}
+\href{mailto:jmuschel@jhsph.edu}{jmuschel@jhsph.edu}\\
+\textit{WWW:}
+\href{http://www.jhsph.edu/faculty/directory/profile/5110/Muschelli/John}{http://www.jhsph.edu/faculty/directory/profile/5110/Muschelli/John} & \\
+\end{tabular}
+
+All links to sites are in blue and are clickable.  
+
+\section{ \large Education and Training}
+%
+\href{http://www.biostat.jhsph.edu/}{\textbf{  Johns Hopkins School of Public Health}},
+Baltimore, Maryland USA
+\begin{outerlist}
+\item[] ScM,
+        \href{http://biostat.jhsph.edu/}
+             {Biostatistics} (May 2010)
+        \begin{innerlist}
+        \item Thesis Topic: \emph{A Critical Review of HRF Derivatives in SPM for Functional Neuroimaging}
+        \item Adviser:
+              \href{http://www.biostat.jhsph.edu/~bcaffo/}
+                   {Professor Brian Caffo}
+        \item Area of Study: fMRI brain image data analysis\\
+        \end{innerlist}
+\end{outerlist}
+        
+\href{http://www.scranton.edu/}{\textbf{The University of Scranton}},
+Scranton, Pennsylvania USA
+\begin{outerlist}
+
+\item[] B.S.,
+        \href{http://math.scranton.edu/}
+             {Biomathematics and Neuroscience}
+            (Summa Cum Laude) (May 2008)
+        \begin{innerlist}
+        \item Adviser:
+              \href{http://academic.scranton.edu/department/math/Faculty/inf_jasi.html}
+                   {Professor Jakub Jasinski}
+        \item Area of Study: Biomathematics\\
+        \item Adviser:
+              \href{http://academic.scranton.edu/faculty/cannon/}
+                   {Professor J.~Timothy Cannon}
+        \item Area of Study: Neuroscience
+        \end{innerlist}
+
+
+\end{outerlist}
+
+\section{ Professional Experience}
+%
+\href{http://www.biostat.jhsph.edu/consult/}{\textbf{Johns Hopkins Biostatistics Center (JHBC)}},
+Baltimore, Maryland USA
+\begin{outerlist}
+
+\item[] \textit{Junior Statistical Consultant}%
+        \hfill \textbf{January 2009 to Present}
+\begin{innerlist}
+\item Collaborated on statistical projects with senior consultants.
+\item Report writing and analyzing data using statistical software: R, Stata.
+\item Cleaning and checking quality of data.
+\end{innerlist}
+\end{outerlist}
+
+
+
+\href{http://lnir.kennedykrieger.org/staff.html}{\textbf{Laboratory for Neurocognitive and Imaging Research at Kennedy Krieger Institute}},
+Baltimore, Maryland USA
+\begin{outerlist}
+
+\item[] \textit{Data Analyst}%
+        \hfill \textbf{September 2010 to Present}
+\begin{innerlist}
+\item Analyzing functional MRI (fMRI) time series of participants.
+\item Programming consultant: Matlab \& R.  
+\end{innerlist}
+\end{outerlist}
+
+
+
+\href{http://www.analysisandinference.com/}{\textbf{Analysis \& Inference}},
+Springfield, Pennsylvania USA
+\begin{outerlist}
+
+\item[] \textit{Statistical Assistant}%
+        \hfill \textbf{June 2008 to August 2008}
+\begin{innerlist}
+\item Cooperated on statistical projects and conferenced with clients about possible analysis options.
+\item Report writing of analyses: Stata
+\item Data cleaning
+\end{innerlist}
+
+\end{outerlist}
+
+
+
+\textbf{\href{http://www.dupont.com}{Dupont}},
+Stine-Haskell Laboratory, Wilmington, Delaware USA
+\begin{outerlist}
+\item[] \textit{Research Interm}%
+        \hfill \textbf{June 2007 to August 2007}
+\begin{innerlist}
+\item Developed lab skills and techniques: cell culturing, making and sterilizing broth media, optical density readings, inoculations, quality control, cell counts, screening for fungicidal properties of compounds.
+\end{innerlist}
+
+\end{outerlist}
+
+
+\section{ Publications}
+(In Review)  Newell, D. Shah, M. Wilcox, R. Hansmann, D, Melnychuk, E. Muschelli, J. Hanley, D. \textbf{Minimally invasive evacuation of spontaneous intracerebral hemorrhage using sonothrombolysis.} \emph{Journal of Neurosurgery}
+
+
+
+(In Review) Jaffe, J.  Melnychuk, E. Muschelli, J. Ziai, W. Morgan, T.  Hanley, D.  Awad, Issam. \textbf{Ventricular catheter location and the clearance of intraventricular hemorrhage.}  \emph{Journal of Neurosurgery}
+
+
+\section{ Honors and Awards}
+%
+\href{http://www.scranton.edu}{The University of Scranton}
+\begin{innerlist}
+\item Presidential Scholar (Full Tuition Scholarship), 2004-2008
+\item Dean's List, 2004-2008
+\item Alpha Lambda Delta, 2004
+\item Alpha Sigma Nu, 2008
+
+\end{innerlist}
+
+
+\newpage
+\section{Part 2}
+
+
+
+\section{ \large Teaching Experience}
+\href{http://www.jhsph.edu}{\textbf{Johns Hopkins School of Public Health}},
+Baltimore, Maryland USA
+\begin{outerlist}
+
+\item[] \textit{Teaching Assistant}%
+    \hfill \textbf{September 2010 to Present}
+    \begin{innerlist}
+        \item Biostatistics 621-4: Statistical Methods in Public Health I-IV
+        \begin{innerlist}
+            \item Responsible for 1~hour lab Stata session, 1~hour office hour, and grading homework, quizzes, and tests.
+            \end{innerlist}~
+  \hfill \textbf{September 2009 to May 2010}
+        \item Biostatistics 651-4: Methods in Biostatistics I-IV
+        \begin{innerlist}
+            \item Responsible for 1~hour lab helping session, and grading homework and tests.
+            \end{innerlist}~
+  \hfill \textbf{January 2010}
+        \item Biostatistics 613-4: Data Analysis Workshop I-II
+        \begin{innerlist}
+             \item Responsible for 4~hour lab and teaching session, helping students to get comfortable with Stata programming and interpreting results from output.
+
+        \end{innerlist}~
+    \end{innerlist}
+
+\item[] \textit{Graduate Tutor}%
+        \hfill \textbf{September 2009 to Present}
+\begin{innerlist}
+\item Tutored students in statistics on coursework and statistical dissertation material.
+\end{innerlist}
+\item[] \textit{Undergraduate Tutor}%
+        \hfill \textbf{March 2005 to May 2008}
+\begin{innerlist}
+\item Tutored students regarding mathematics, statistics and other science courses.
+\end{innerlist}
+        
+\end{outerlist}
+
+\section{ Academic Service}
+\href{http://incentivementoringprogram.org/}{Incentive Mentoring Program} 
+\begin{outerlist}
+\item[] \textit{Mentor}%
+        \hfill \textbf{September 2010 to Present}
+\begin{innerlist}
+\item Mentor and tutor a student from Dunbar High School, teaching coursework, life skills, support as needed.
+\end{innerlist}
+\end{outerlist}
+
+
+
+\href{www.scranton.edu}{University of Scranton}
+\begin{outerlist}
+\item[] \textit{Master of Ceremonies}
+  \hfill \textbf{2005--2008}
+\item Midnight Madness is a kickoff campaign for the basketball season and a food-raising activity for local food kitchens.  \item \href{http://www.theofficeconvention.com/}{The Office Convention} was an event where members of the television show The Office came to Scranton, students  entertained crowds in between events on the stages.  
+\item Quizzo and Royal Feud are trivia games that are fundraisers for international and domestic service programs. 
+\end{outerlist}
+
+
+
+\href{http://academic.scranton.edu/organization/edjustice/events.shtml}{F.I.R.S.T. (Freshmen In Reflective Service Together)}
+\begin{outerlist}
+\item[] \textit{Leader} 
+ \hfill \textbf{2007}
+\item Led a service trip as a senior that welcomes incoming freshmen to participate in volunteer service at the University of Scranton.
+\item Each team does service at various sites around the city of Scranton, namely Head Start, Little People Day Care, Lackawanna County Health Care Center.
+\end{outerlist}
+
+
+
+Saint Francis of Assisi Soup Kitchen, Scranton, PA
+\begin{outerlist}
+\item[] \textit{Volunteer}
+\hfill \textbf{2004--2005}
+\item Volunteered working with those running the soup kitchen.
+\item Tasks ranged from cleaning dishes to handing out food.
+\end{outerlist}
+
+
+\section{ \large Technical Skills}
+%
+Software experience in statistics and data processing, cleaning, and basic data base management.  
+
+
+
+\href{http://cran.r-project.org/}{\textsc{R}}
+        experience: statistical programming, survival analysis, regression modeling, fmri image analysis, packages.
+
+
+
+\href{http://www.sas.com}{\textsc{SAS}}
+        experience: basic programming/analysis.
+
+
+
+\href{http://www.stattransfer.com/}{\textsc{StatTransfer}}
+        experience: import/export of multiple data formats.
+
+
+
+\href{http://www.cs.uiowa.edu/~rlenth/StatWeave/}{\textsc{Statweave}}
+        experience: programming multiple languages in one software.
+
+
+
+\href{http://www.stata.com}{\textsc{Stata}}
+        experience: statistical programming survival analysis, regression modeling.
+
+
+
+\href{http://www.matlab.com}{\textsc{Matlab}}
+        experience: intermediate programming, Statistical Parametric Mapping (SPM).  
+        
+
+
+Basic Programming: \href{http://www.cplusplus.com/}{C++}, \href{http://msdn.microsoft.com/en-us/vbasic/default}{Visual Basic}
+
+
+
+Operating Systems: 
+\setlength{\parindent}{0.5in}
+
+\indent Proficient: Microsoft Windows XP/2000/Vista, Mac OS X.
+
+\indent Novice: Linux CentOS5
+\setlength{\parindent}{0in}
+
+
+
+Applications: \TeX{}, \href{http://www.latex-project.org/}{\LaTeX{}}, B\textsc{ib}\TeX{}, Microsoft Office, OpenOffice, TeXShop, WinEdt, WinBUGS, MikTeX, Shell.  
+
+\section{ Mathematical Experience}
+%
+Linear Algebra, Real Analysis
+
+
+
+Probability, Random Variables, and Stochastic Processes, Statistical Inference, Survival Analysis
+
+
+
+Statistical Programming
+
+
+
+Functional MRI (fMRI) Analysis 
+\nocite{*}
+\bibliography{CV_20110711}
+%\bibliography{CV_20110711}
+\bibliographystyle{plain}
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% End CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%

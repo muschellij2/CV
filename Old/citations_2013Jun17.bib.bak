@@ -1,0 +1,163 @@
+% This file was created with JabRef 2.9.2.
+% Encoding: MacRoman
+
+@ARTICLE{bundy2012ambulatory,
+  author = {Bundy, David G and Muschelli, John and Clemens, Gwendolyn D and Strouse,
+	John J and Thompson, Richard E and Casella, James F and Miller, Marlene
+	R},
+  title = {Ambulatory Care Connections of Medicaid-Insured Children With Sickle
+	Cell Disease},
+  journal = {Pediatric Blood \& Cancer},
+  year = {2012},
+  publisher = {Wiley Online Library}
+}
+
+@ARTICLE{eloyan2012automated,
+  author = {Eloyan, Ani and Muschelli, John and Nebel, Mary Beth and Liu, Han
+	and Han, Fang and Zhao, Tuo and Barber, Anita and Joel, Suresh and
+	Pekar, James J and Mostofsky, Stewart and others},
+  title = {Automated diagnoses of attention deficit hyperactive disorder using
+	magnetic resonance imaging},
+  year = {2012},
+  publisher = {bepress}
+}
+
+@INPROCEEDINGS{hanley2012mistie,
+  author = {Hanley, Daniel F and Zuccarello, M and Lane, K and Broaddus, WC and
+	Awad, I and Aldrich, EF and Wijman, C and Vespa, P and Caron, JL
+	and Huang, J and others},
+  title = {MISTIE Phase II Results: Safety, Efficacy and Surgical Performance},
+  booktitle = {CEREBROVASCULAR DISEASES},
+  year = {2012},
+  volume = {34},
+  pages = {4--4},
+  organization = {KARGER ALLSCHWILERSTRASSE 10, CH-4009 BASEL, SWITZERLAND}
+}
+
+@ARTICLE{hinson2012drainage,
+  author = {Hinson, Holly E and Melnychuk, Eric and Muschelli, John and Hanley,
+	Daniel F and Awad, Issam A and Ziai, Wendy C},
+  title = {Drainage efficiency with dual versus single catheters in severe intraventricular
+	hemorrhage},
+  journal = {Neurocritical care},
+  year = {2012},
+  volume = {16},
+  pages = {399--405},
+  number = {3},
+  publisher = {Humana Press Inc}
+}
+
+@INPROCEEDINGS{hinson2010dual,
+  author = {Hinson, Holly E and Melnychuk, Eric and Muschelli, John and Hanley,
+	Daniel F and Ziai, Wendy C},
+  title = {Dual Intraventricular Catheter Use in Severe Intraventricular Hemorrhage},
+  booktitle = {NEUROLOGY},
+  year = {2010},
+  volume = {74},
+  number = {9},
+  pages = {A129--A129},
+  organization = {LIPPINCOTT WILLIAMS \& WILKINS 530 WALNUT ST, PHILADELPHIA, PA 19106-3621
+	USA}
+}
+
+@ARTICLE{jaffe2012ventricular,
+  author = {Jaffe, Jennifer and Melnychuk, Eric and Muschelli, John and Ziai,
+	Wendy and Morgan, Timothy and Hanley, Daniel F and Awad, Issam A},
+  title = {Ventricular catheter location and the clearance of intraventricular
+	hemorrhage},
+  journal = {Neurosurgery},
+  year = {2012},
+  volume = {70},
+  pages = {1258},
+  number = {5}
+}
+
+@ARTICLE{mould2013minimally,
+  author = {Mould, W Andrew and Carhuapoma, J Ricardo and Muschelli, John and
+	Lane, Karen and Morgan, Timothy C and McBee, Nichol A and Bistran-Hall,
+	Amanda J and Ullman, Natalie L and Vespa, Paul and Martin, Neil A
+	and others},
+  title = {Minimally Invasive Surgery Plus Recombinant Tissue-type Plasminogen
+	Activator for Intracerebral Hemorrhage Evacuation Decreases Perihematomal
+	Edema},
+  journal = {Stroke},
+  year = {2013},
+  volume = {44},
+  pages = {627--634},
+  number = {3},
+  publisher = {Lippincott Williams \& Wilkins}
+}
+
+@PHDTHESIS{muschelli2010iterative,
+  author = {Muschelli, John},
+  title = {An Iterative Approach to Hemodynamic Response Function Temporal Derivatives
+	in Statistical Parametric Mapping for Functional Neuroimaging},
+  school = {Johns Hopkins University},
+  year = {2010}
+}
+
+@ARTICLE{nebel2012disruption,
+  author = {Nebel, Mary Beth and Joel, Suresh E and Muschelli, John and Barber,
+	Anita D and Caffo, Brian S and Pekar, James J and Mostofsky, Stewart
+	H},
+  title = {Disruption of functional organization within the primary motor cortex
+	in children with autism},
+  journal = {Human brain mapping},
+  year = {2012},
+  publisher = {Wiley Subscription Services, Inc., A Wiley Company}
+}
+
+@ARTICLE{newell2011minimally,
+  author = {Newell, David W and Shah, M Mohsin and Wilcox, Robert and Hansmann,
+	Douglas R and Melnychuk, Erik and Muschelli, John and Hanley, Daniel
+	F},
+  title = {Minimally invasive evacuation of spontaneous intracerebral hemorrhage
+	using sonothrombolysis: Clinical article},
+  journal = {Journal of neurosurgery},
+  year = {2011},
+  volume = {115},
+  pages = {592--601},
+  number = {3},
+  publisher = {American Association of Neurological Surgeons}
+}
+
+@ARTICLE{niedner2011epidemiology,
+  author = {Niedner, Matthew F and Huskins, W Charles and Colantuoni, Elizabeth
+	and Muschelli, John and Harris II, J Mitchell and Rice, Tom B and
+	Brilli, Richard J and Miller, Marlene R},
+  title = {Epidemiology of Central Line--Associated Bloodstream Infections in
+	the Pediatric Intensive Care Unit},
+  journal = {Epidemiology},
+  year = {2011},
+  volume = {32},
+  pages = {1200--1208},
+  number = {12}
+}
+
+@ARTICLE{webb2012resolution,
+  author = {Webb, Alastair JS and Ullman, Natalie L and Mann, Sarah and Muschelli,
+	John and Awad, Issam A and Hanley, Daniel F},
+  title = {Resolution of Intraventricular Hemorrhage Varies by Ventricular Region
+	and Dose of Intraventricular Thrombolytic The Clot Lysis: Evaluating
+	Accelerated Resolution of IVH (CLEAR IVH) Program},
+  journal = {Stroke},
+  year = {2012},
+  volume = {43},
+  pages = {1666--1668},
+  number = {6},
+  publisher = {Lippincott Williams \& Wilkins}
+}
+
+@ARTICLE{ziai2012factors,
+  author = {Ziai, Wendy C and Muschelli, John and Thompson, Carol B and Keyl,
+	Penelope M and Lane, Karen and Shao, Shuai and Hanley, Daniel F},
+  title = {Factors affecting clot lysis rates in patients with spontaneous intraventricular
+	hemorrhage},
+  journal = {Stroke},
+  year = {2012},
+  volume = {43},
+  pages = {1234--1239},
+  number = {5},
+  publisher = {Lippincott Williams \& Wilkins}
+}
+

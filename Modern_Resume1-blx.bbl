@@ -1,0 +1,1148 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.4 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{muschelli2015validated}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ullman}{U.}%
+     {Natalie~L}{N.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mould}{M.}%
+     {W~Andrew}{W.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vespa}{V.}%
+     {Paul}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hanley}{H.}%
+     {Daniel~F}{D.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Crainiceanu}{C.}%
+     {Ciprian~M}{C.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Academic Press}%
+  }
+  \strng{namehash}{MJ+1}
+  \strng{fullhash}{MJUNLMWAVPHDFCCM1}
+  \field{labelyear}{2015}
+  \field{extrayear}{2}
+  \field{pages}{379\bibrangedash 385}
+  \field{title}{Validated automatic brain extraction of head CT images}
+  \field{volume}{114}
+  \field{journaltitle}{NeuroImage}
+  \field{year}{2015}
+\endentry
+
+\entry{muschelli2015fslr}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sweeney}{S.}%
+     {Elizabeth}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lindquist}{L.}%
+     {Martin}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Crainiceanu}{C.}%
+     {Ciprian}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {R FOUNDATION STATISTICAL COMPUTING}%
+  }
+  \strng{namehash}{MJ+1}
+  \strng{fullhash}{MJSELMCC1}
+  \field{labelyear}{2015}
+  \field{extrayear}{1}
+  \field{number}{1}
+  \field{pages}{163\bibrangedash 175}
+  \field{title}{fslr: Connecting the FSL Software with R}
+  \field{volume}{7}
+  \field{journaltitle}{R JOURNAL}
+  \field{year}{2015}
+\endentry
+
+\entry{muschelli2014reduction}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nebel}{N.}%
+     {Mary~Beth}{M.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Caffo}{C.}%
+     {Brian~S}{B.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barber}{B.}%
+     {Anita~D}{A.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pekar}{P.}%
+     {James~J}{J.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mostofsky}{M.}%
+     {Stewart~H}{S.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Academic Press}%
+  }
+  \strng{namehash}{MJ+1}
+  \strng{fullhash}{MJNMBCBSBADPJJMSH1}
+  \field{labelyear}{2014}
+  \field{pages}{22\bibrangedash 35}
+  \field{title}{Reduction of motion-related artifacts in resting state fMRI
+  using aCompCor}
+  \field{volume}{96}
+  \field{journaltitle}{Neuroimage}
+  \field{year}{2014}
+\endentry
+
+\entry{muschelli2014brainr}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sweeney}{S.}%
+     {Elizabeth}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Crainiceanu}{C.}%
+     {Ciprian}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MJSECC1}
+  \strng{fullhash}{MJSECC1}
+  \field{labelyear}{2014}
+  \field{number}{1}
+  \field{pages}{41\bibrangedash 48}
+  \field{title}{brainR: Interactive 3 and 4d Images of High Resolution
+  Neuroimage Data}
+  \field{volume}{6}
+  \field{journaltitle}{R Journal}
+  \field{year}{2014}
+\endentry
+
+\entry{muschelli2014binomial}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Betz}{B.}%
+     {Joshua}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Varadhan}{V.}%
+     {Ravi}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{MJBJVR1}
+  \strng{fullhash}{MJBJVR1}
+  \field{labelyear}{2014}
+  \field{pages}{257}
+  \field{title}{Binomial Regression in R}
+  \field{volume}{32}
+  \field{journaltitle}{Handbook of Statistics: Computational Statistics with R}
+  \field{year}{2014}
+\endentry
+
+\entry{muschelli2010iterative}{thesis}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MJ1}
+  \strng{fullhash}{MJ1}
+  \field{labelyear}{2010}
+  \field{title}{An Iterative Approach to Hemodynamic Response Function Temporal
+  Derivatives in Statistical Parametric Mapping for Functional Neuroimaging}
+  \list{institution}{1}{%
+    {Johns Hopkins University}%
+  }
+  \field{type}{phdthesis}
+  \field{year}{2010}
+\endentry
+
+\entry{mould2015impact}{inproceedings}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Mould}{M.}%
+     {W~Andrew}{W.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lovett}{L.}%
+     {Braeden~L}{B.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hanley}{H.}%
+     {Daniel~F}{D.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Carhuapoma}{C.}%
+     {J~Ricardo}{J.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MWA+1}
+  \strng{fullhash}{MWALBLMJHDFCJR1}
+  \field{labelyear}{2015}
+  \field{booktitle}{STROKE}
+  \field{title}{Impact of Blood Removal on Perihematomal Apparent Diffusion
+  Coefficients in Patients Treated with Minimally Invasive Surgery Plus rt-PA}
+  \field{volume}{46}
+  \field{year}{2015}
+\endentry
+
+\entry{eloyan2014analytic}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Eloyan}{E.}%
+     {Ani}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Li}{L.}%
+     {Shanshan}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pekar}{P.}%
+     {Jim~J}{J.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mostofsky}{M.}%
+     {Stewart~H}{S.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Caffo}{C.}%
+     {Brian~S}{B.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{EA+1}
+  \strng{fullhash}{EALSMJPJJMSHCBS1}
+  \field{labelyear}{2014}
+  \field{number}{2}
+  \field{pages}{e89470}
+  \field{title}{Analytic programming with fMRI data: A quick-start guide for
+  statisticians using R}
+  \field{volume}{9}
+  \field{journaltitle}{PloS one}
+  \field{year}{2014}
+\endentry
+
+\entry{nebel2014disruption}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Nebel}{N.}%
+     {Mary~Beth}{M.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Joel}{J.}%
+     {Suresh~E}{S.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barber}{B.}%
+     {Anita~D}{A.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Caffo}{C.}%
+     {Brian~S}{B.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pekar}{P.}%
+     {James~J}{J.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mostofsky}{M.}%
+     {Stewart~H}{S.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{NMB+1}
+  \strng{fullhash}{NMBJSEMJBADCBSPJJMSH1}
+  \field{labelyear}{2014}
+  \field{number}{2}
+  \field{pages}{567\bibrangedash 580}
+  \field{title}{Disruption of functional organization within the primary motor
+  cortex in children with autism}
+  \field{volume}{35}
+  \field{journaltitle}{Human brain mapping}
+  \field{year}{2014}
+\endentry
+
+\entry{mould2013minimally}{article}{}
+  \name{author}{11}{}{%
+    {{}%
+     {Mould}{M.}%
+     {W~Andrew}{W.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Carhuapoma}{C.}%
+     {J~Ricardo}{J.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lane}{L.}%
+     {Karen}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Morgan}{M.}%
+     {Timothy~C}{T.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McBee}{M.}%
+     {Nichol~A}{N.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bistran-Hall}{B.-H.}%
+     {Amanda~J}{A.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ullman}{U.}%
+     {Natalie~L}{N.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vespa}{V.}%
+     {Paul}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Martin}{M.}%
+     {Neil~A}{N.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{others}}{o.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Lippincott Williams \& Wilkins}%
+  }
+  \strng{namehash}{MWA+1}
+  \strng{fullhash}{MWACJRMJLKMTCMNABHAJUNLVPMNAo1}
+  \field{labelyear}{2013}
+  \field{extrayear}{2}
+  \field{number}{3}
+  \field{pages}{627\bibrangedash 634}
+  \field{title}{Minimally invasive surgery plus recombinant tissue-type
+  plasminogen activator for intracerebral hemorrhage evacuation decreases
+  perihematomal edema}
+  \field{volume}{44}
+  \field{journaltitle}{Stroke}
+  \field{year}{2013}
+\endentry
+
+\entry{mould2013administration}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Mould}{M.}%
+     {W~Andrew}{W.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Carhuapoma}{C.}%
+     {J~Ricardo}{J.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hanley}{H.}%
+     {Daniel~F}{D.~F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MWA+1}
+  \strng{fullhash}{MWACJRMJHDF1}
+  \field{labelyear}{2013}
+  \field{extrayear}{1}
+  \field{booktitle}{STROKE}
+  \field{number}{2}
+  \field{title}{Administration of Tissue Plasminogen Activator to Patients with
+  Spontaneous ICH Does Not Lead to an Increase in Perihematomal Edema}
+  \field{volume}{44}
+  \field{year}{2013}
+\endentry
+
+\entry{mould2013mistie}{article}{}
+  \name{author}{11}{}{%
+    {{}%
+     {Mould}{M.}%
+     {WA}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Carhuapoma}{C.}%
+     {JR}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muschelli}{M.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lane}{L.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Morgan}{M.}%
+     {TC}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McBee}{M.}%
+     {NA}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bistran-Hall}{B.-H.}%
+     {AJ}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ullman}{U.}%
+     {NL}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vespa}{V.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Martin}{M.}%
+     {NA}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{others}}{o.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MW+1}
+  \strng{fullhash}{MWCJMJLKMTMNBHAUNVPMNo1}
+  \field{labelyear}{2013}
+  \field{extrayear}{3}
+  \field{number}{3}
+  \field{pages}{627\bibrangedash 634}
+  \field{title}{MISTIE Investigators: minimally invasive surgery plus
+  recombinant tissue-type plasminogen activator for intracerebral hemorrhage
+  evacuation decreases perihematomal edema}
+  \field{volume}{44}
+  \field{journaltitle}{Stroke}
+  \field{year}{2013}
+\endentry
+
+\entry{ullman2013catheter}{inproceedings}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Ullman}{U.}%
+     {Natalie~L}{N.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Li}{L.}%
+     {Matthew}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Morgan}{M.}%
+     {Timothy~C}{T.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Awad}{A.}%
+     {Issam~A}{I.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zuccarello}{Z.}%
+     {Mario}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lane}{L.}%
+     {Karen}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hanley}{H.}%
+     {Daniel~F}{D.~F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{UNL+1}
+  \strng{fullhash}{UNLMJLMMTCAIAZMLKHDF1}
+  \field{labelyear}{2013}
+  \field{booktitle}{STROKE}
+  \field{number}{2}
+  \field{title}{Catheter Placement and Surgical Training in the Minimally
+  Invasive Surgery Plus rt-PA for Intracerebral Hemorrhage Evacuation Trial}
+  \field{volume}{44}
+  \field{year}{2013}
+\endentry
+
+\entry{bundy2012ambulatory}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Bundy}{B.}%
+     {David~G}{D.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Clemens}{C.}%
+     {Gwendolyn~D}{G.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Strouse}{S.}%
+     {John~J}{J.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thompson}{T.}%
+     {Richard~E}{R.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Casella}{C.}%
+     {James~F}{J.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Miller}{M.}%
+     {Marlene~R}{M.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{BDG+1}
+  \strng{fullhash}{BDGMJCGDSJJTRECJFMMR1}
+  \field{labelyear}{2012}
+  \field{title}{Ambulatory Care Connections of Medicaid-Insured Children With
+  Sickle Cell Disease}
+  \field{journaltitle}{Pediatric Blood \& Cancer}
+  \field{year}{2012}
+\endentry
+
+\entry{eloyan2012automated}{article}{}
+  \name{author}{11}{}{%
+    {{}%
+     {Eloyan}{E.}%
+     {Ani}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nebel}{N.}%
+     {Mary~Beth}{M.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liu}{L.}%
+     {Han}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Han}{H.}%
+     {Fang}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhao}{Z.}%
+     {Tuo}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barber}{B.}%
+     {Anita~D}{A.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Joel}{J.}%
+     {Suresh}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pekar}{P.}%
+     {James~J}{J.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mostofsky}{M.}%
+     {Stewart~H}{S.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{others}}{o.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Frontiers Media SA}%
+  }
+  \strng{namehash}{EA+1}
+  \strng{fullhash}{EAMJNMBLHHFZTBADJSPJJMSHo1}
+  \field{labelyear}{2012}
+  \field{title}{Automated diagnoses of attention deficit hyperactive disorder
+  using magnetic resonance imaging}
+  \field{volume}{6}
+  \field{journaltitle}{Frontiers in systems neuroscience}
+  \field{year}{2012}
+\endentry
+
+\entry{hanley2012mistie}{inproceedings}{}
+  \name{author}{11}{}{%
+    {{}%
+     {Hanley}{H.}%
+     {Daniel~F}{D.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zuccarello}{Z.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lane}{L.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Broaddus}{B.}%
+     {WC}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Awad}{A.}%
+     {I}{I}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aldrich}{A.}%
+     {EF}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wijman}{W.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vespa}{V.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Caron}{C.}%
+     {JL}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Huang}{H.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{others}}{o.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HDF+1}
+  \strng{fullhash}{HDFZMLKBWAIAEWCVPCJHJo1}
+  \field{labelyear}{2012}
+  \field{booktitle}{CEREBROVASCULAR DISEASES}
+  \field{pages}{4\bibrangedash 4}
+  \field{title}{MISTIE phase II results: safety, efficacy and surgical
+  performance}
+  \field{volume}{34}
+  \field{year}{2012}
+\endentry
+
+\entry{hinson2012drainage}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Hinson}{H.}%
+     {Holly~E}{H.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Melnychuk}{M.}%
+     {Eric}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hanley}{H.}%
+     {Daniel~F}{D.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Awad}{A.}%
+     {Issam~A}{I.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ziai}{Z.}%
+     {Wendy~C}{W.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Humana Press Inc}%
+  }
+  \strng{namehash}{HHE+1}
+  \strng{fullhash}{HHEMEMJHDFAIAZWC1}
+  \field{labelyear}{2012}
+  \field{number}{3}
+  \field{pages}{399\bibrangedash 405}
+  \field{title}{Drainage efficiency with dual versus single catheters in severe
+  intraventricular hemorrhage}
+  \field{volume}{16}
+  \field{journaltitle}{Neurocritical care}
+  \field{year}{2012}
+\endentry
+
+\entry{jaffe2012ventricular}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Jaffe}{J.}%
+     {Jennifer}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Melnychuk}{M.}%
+     {Eric}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ziai}{Z.}%
+     {Wendy}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Morgan}{M.}%
+     {Timothy}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hanley}{H.}%
+     {Daniel~F}{D.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Awad}{A.}%
+     {Issam~A}{I.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {NIH Public Access}%
+  }
+  \strng{namehash}{JJ+1}
+  \strng{fullhash}{JJMEMJZWMTHDFAIA1}
+  \field{labelyear}{2012}
+  \field{number}{5}
+  \field{pages}{1258}
+  \field{title}{Ventricular catheter location and the clearance of
+  intraventricular hemorrhage}
+  \field{volume}{70}
+  \field{journaltitle}{Neurosurgery}
+  \field{year}{2012}
+\endentry
+
+\entry{webb2012resolution}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Webb}{W.}%
+     {Alastair~JS}{A.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ullman}{U.}%
+     {Natalie~L}{N.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mann}{M.}%
+     {Sarah}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Awad}{A.}%
+     {Issam~A}{I.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hanley}{H.}%
+     {Daniel~F}{D.~F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Lippincott Williams \& Wilkins}%
+  }
+  \strng{namehash}{WAJ+1}
+  \strng{fullhash}{WAJUNLMSMJAIAHDF1}
+  \field{labelyear}{2012}
+  \field{number}{6}
+  \field{pages}{1666\bibrangedash 1668}
+  \field{title}{Resolution of Intraventricular Hemorrhage Varies by Ventricular
+  Region and Dose of Intraventricular Thrombolytic The Clot Lysis: Evaluating
+  Accelerated Resolution of IVH (CLEAR IVH) Program}
+  \field{volume}{43}
+  \field{journaltitle}{Stroke}
+  \field{year}{2012}
+\endentry
+
+\entry{ziai2012factors}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Ziai}{Z.}%
+     {Wendy~C}{W.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thompson}{T.}%
+     {Carol~B}{C.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Keyl}{K.}%
+     {Penelope~M}{P.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lane}{L.}%
+     {Karen}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shao}{S.}%
+     {Shuai}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hanley}{H.}%
+     {Daniel~F}{D.~F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Lippincott Williams \& Wilkins}%
+  }
+  \strng{namehash}{ZWC+1}
+  \strng{fullhash}{ZWCMJTCBKPMLKSSHDF1}
+  \field{labelyear}{2012}
+  \field{number}{5}
+  \field{pages}{1234\bibrangedash 1239}
+  \field{title}{Factors affecting clot lysis rates in patients with spontaneous
+  intraventricular hemorrhage}
+  \field{volume}{43}
+  \field{journaltitle}{Stroke}
+  \field{year}{2012}
+\endentry
+
+\entry{newell2011minimally}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Newell}{N.}%
+     {David~W}{D.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shah}{S.}%
+     {M~Mohsin}{M.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wilcox}{W.}%
+     {Robert}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hansmann}{H.}%
+     {Douglas~R}{D.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Melnychuk}{M.}%
+     {Erik}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hanley}{H.}%
+     {Daniel~F}{D.~F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {NIH Public Access}%
+  }
+  \strng{namehash}{NDW+1}
+  \strng{fullhash}{NDWSMMWRHDRMEMJHDF1}
+  \field{labelyear}{2011}
+  \field{number}{3}
+  \field{pages}{592}
+  \field{title}{Minimally invasive evacuation of spontaneous intracerebral
+  hemorrhage using sonothrombolysis}
+  \field{volume}{115}
+  \field{journaltitle}{Journal of neurosurgery}
+  \field{year}{2011}
+\endentry
+
+\entry{niedner2011epidemiology}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Niedner}{N.}%
+     {Matthew~F}{M.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Huskins}{H.}%
+     {W~Charles}{W.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Colantuoni}{C.}%
+     {Elizabeth}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Harris}{H.}%
+     {J~Mitchell}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rice}{R.}%
+     {Tom~B}{T.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brilli}{B.}%
+     {Richard~J}{R.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Miller}{M.}%
+     {Marlene~R}{M.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge University Press}%
+  }
+  \strng{namehash}{NMF+1}
+  \strng{fullhash}{NMFHWCCEMJHJMRTBBRJMMR1}
+  \field{labelyear}{2011}
+  \field{number}{12}
+  \field{pages}{1200\bibrangedash 1208}
+  \field{title}{Epidemiology of central line-associated bloodstream infections
+  in the pediatric intensive care unit}
+  \field{volume}{32}
+  \field{journaltitle}{Infection Control}
+  \field{year}{2011}
+\endentry
+
+\entry{hinson2010dual}{inproceedings}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Hinson}{H.}%
+     {Holly~E}{H.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Melnychuk}{M.}%
+     {Eric}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hanley}{H.}%
+     {Daniel~F}{D.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ziai}{Z.}%
+     {Wendy~C}{W.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HHE+1}
+  \strng{fullhash}{HHEMEMJHDFZWC1}
+  \field{labelyear}{2010}
+  \field{booktitle}{NEUROLOGY}
+  \field{number}{9}
+  \field{pages}{A129\bibrangedash A129}
+  \field{title}{Dual Intraventricular Catheter Use in Severe Intraventricular
+  Hemorrhage}
+  \field{volume}{74}
+  \field{year}{2010}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

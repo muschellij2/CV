@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: ModernCV_2014Aug05.aux
+The style file: plain.bst
+Database file #1: citations_2013Jun17.bib
+Warning--empty journal in eloyan2012automated
+Warning--can't use both volume and number fields in hinson2010dual
+You've used 12 entries,
+            2118 wiz_defined-function locations,
+            575 strings with 7742 characters,
+and the built_in function-call counts, 6135 in all, are:
+= -- 551
+> -- 501
+< -- 4
++ -- 198
+- -- 186
+* -- 564
+:= -- 1073
+add.period$ -- 38
+call.type$ -- 12
+change.case$ -- 126
+chr.to.int$ -- 0
+cite$ -- 14
+duplicate$ -- 151
+empty$ -- 323
+format.name$ -- 186
+if$ -- 1185
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 12
+newline$ -- 63
+num.names$ -- 24
+pop$ -- 117
+preamble$ -- 1
+purify$ -- 114
+quote$ -- 0
+skip$ -- 107
+stack$ -- 0
+substring$ -- 296
+swap$ -- 32
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 48
+warning$ -- 2
+while$ -- 43
+width$ -- 14
+write$ -- 134
+(There were 2 warnings)
