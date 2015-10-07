@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.4)  7 OCT 2015 17:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.4)  7 OCT 2015 17:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1187,7 +1187,7 @@ Underfull \hbox (badness 4353) in paragraph at lines 156--156
  []
 
 (./hackathons.tex
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 5.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 4.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1211,7 +1211,7 @@ Package logreq Info: Writing requests to 'Modern_CV.run.xml'.
 Here is how much of TeX's memory you used:
  31307 strings out of 493109
  575167 string characters out of 6135005
- 736937 words of memory out of 5000000
+ 737937 words of memory out of 5000000
  34180 multiletter control sequences out of 15000+600000
  75100 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1226,7 +1226,7 @@ fb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/l
 ocal/texlive/2014/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2014/te
 xmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on Modern_CV.pdf (6 pages, 353358 bytes).
+Output written on Modern_CV.pdf (6 pages, 353347 bytes).
 PDF statistics:
  200 PDF objects out of 1000 (max. 8388607)
  179 compressed objects within 2 object streams
