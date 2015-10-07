@@ -2,6 +2,7 @@ fname=Modern_CV
 ${fname}.pdf: ${fname}.tex education.tex \
 	R_packages.tex professional.tex \
 	teaching.tex \
+	academic_service.tex \
 	teaching_assistant.tex \
 	talks_and_presentations.tex \
 	research_interests.tex \
