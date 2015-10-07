@@ -9,4 +9,7 @@ ${fname}.pdf: ${fname}.tex education.tex professional.tex citations.bib
 	bibtex ${fname}1-blx
 	pdflatex ${fname}
 	pdflatex ${fname}
+	cp ${fname}.pdf Current_CV.pdf
 	open ${fname}.pdf
+clean:
+	rm ${fname}.pdf
