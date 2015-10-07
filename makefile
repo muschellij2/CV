@@ -1,5 +1,11 @@
-fname=Modern_Resume
-${fname}.pdf: ${fname}.tex education.tex professional.tex citations.bib
+fname=Modern_CV
+${fname}.pdf: ${fname}.tex education.tex \
+	R_packages.tex professional.tex \
+	teaching.tex \
+	teaching_assistant.tex \
+	talks_and_presentations.tex \
+	research_interests.tex \
+	citations.bib
 	if [ -e ${fname}.aux ]; \
 	then \
 	rm ${fname}.aux; \
