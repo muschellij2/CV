@@ -55,7 +55,7 @@
   \strng{namehash}{MJ+1}
   \strng{fullhash}{MJUNLMWAVPHDFCCM1}
   \field{labelyear}{2015}
-  \field{extrayear}{2}
+  \field{extrayear}{3}
   \field{pages}{379\bibrangedash 385}
   \field{title}{Validated automatic brain extraction of head CT images}
   \field{volume}{114}
@@ -98,6 +98,62 @@
   \field{title}{fslr: Connecting the FSL Software with R}
   \field{volume}{7}
   \field{journaltitle}{R JOURNAL}
+  \field{year}{2015}
+\endentry
+
+\entry{muschelli2015quantitative}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ullman}{U.}%
+     {Natalie~L}{N.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sweeney}{S.}%
+     {Elizabeth~M}{E.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Eloyan}{E.}%
+     {Ani}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Martin}{M.}%
+     {Neil}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vespa}{V.}%
+     {Paul}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hanley}{H.}%
+     {Daniel~F}{D.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Crainiceanu}{C.}%
+     {Ciprian~M}{C.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Am Heart Assoc}%
+  }
+  \strng{namehash}{MJ+1}
+  \strng{fullhash}{MJUNLSEMEAMNVPHDFCCM1}
+  \field{labelyear}{2015}
+  \field{extrayear}{2}
+  \field{pages}{STROKEAHA\bibrangedash 115}
+  \field{title}{Quantitative Intracerebral Hemorrhage Localization}
+  \field{journaltitle}{Stroke}
   \field{year}{2015}
 \endentry
 

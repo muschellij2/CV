@@ -7,11 +7,13 @@ ${fname}.pdf: ${fname}.tex education.tex \
 	hackathons.tex \
 	talks_and_presentations.tex \
 	research_interests.tex \
+	convert_bibtex.R \
 	citations.bib
 	if [ -e ${fname}.aux ]; \
 	then \
 	rm ${fname}.aux; \
 	fi;
+	Rscript convert_bibtex.R
 	pdflatex ${fname}
 	bibtex ${fname}
 	bibtex ${fname}1-blx
