@@ -7,7 +7,9 @@ ${fname}.pdf: ${fname}.tex education.tex \
 	hackathons.tex \
 	talks_and_presentations.tex \
 	research_interests.tex \
+	shinyapps.tex \
 	convert_bibtex.R \
+	preparation.bib \
 	citations.bib
 	if [ -e ${fname}.aux ]; \
 	then \
@@ -17,6 +19,7 @@ ${fname}.pdf: ${fname}.tex education.tex \
 	pdflatex ${fname}
 	bibtex ${fname}
 	bibtex ${fname}1-blx
+	bibtex ${fname}2-blx
 	pdflatex ${fname}
 	pdflatex ${fname}
 	cp ${fname}.pdf Current_CV.pdf

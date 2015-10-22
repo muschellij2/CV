@@ -1,0 +1,191 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.4 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{fortin2015ravel}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Fortin}{F.}%
+     {Jean-Philippe}{J.-P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sweeney}{S.}%
+     {Elizabeth~M.}{E.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Crainiceanu}{C.}%
+     {Ciprian~M.}{C.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shinohara}{S.}%
+     {Russell~T.}{R.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alzheimer's Disease Neuroimaging~Initiative}{A.~D. N.~I.}%
+     {}{}%
+     {the}{t.}%
+     {}{}}%
+  }
+  \strng{namehash}{FJP+1}
+  \strng{fullhash}{FJPSEMMJCCMSRTADNIt1}
+  \field{labelyear}{2015}
+  \field{title}{Removing inter-subject technical variability in magnetic
+  resonance imaging studies}
+  \field{journaltitle}{Preparation}
+  \field{year}{2015}
+\endentry
+
+\entry{sweeney2015pcs}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Sweeney}{S.}%
+     {Elizabeth~M.}{E.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shinohara}{S.}%
+     {Russell~T.}{R.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dewey}{D.}%
+     {Blake~E.}{B.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Reich}{R.}%
+     {Daniel~S.}{D.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Crainiceanu}{C.}%
+     {Ciprian~M.}{C.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schindler}{S.}%
+     {Matthew~K.}{M.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Eloyan}{E.}%
+     {Ani}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SEM+1}
+  \strng{fullhash}{SEMSRTMJDBERDSCCMSMKEA1}
+  \field{labelyear}{2015}
+  \field{pages}{In Preparation}
+  \field{title}{Relating multi-sequence longitudinal intensity profiles and
+  clinical covariates in incident multiple sclerosis lesions}
+  \field{journaltitle}{NeuroImage: Clinical}
+  \field{year}{2015}
+\endentry
+
+\entry{kickingereder2015gbl}{article}{}
+  \name{author}{12}{}{%
+    {{}%
+     {Kickingereder}{K.}%
+     {Philipp}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {G{\"o}tz}{G.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wick}{W.}%
+     {Antje}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Neuberger}{N.}%
+     {Ulf}{U.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shinohara}{S.}%
+     {Russell~T}{R.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Radbruch}{R.}%
+     {Alexander}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schlemmer}{S.}%
+     {Heinz-Peter}{H.-P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wick}{W.}%
+     {Wolfgang}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bendszus}{B.}%
+     {Martin}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Maier-Hein}{M.-H.}%
+     {Klaus}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bonekamp}{B.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KP+1}
+  \strng{fullhash}{KPGMMJWANUSRTRASHPWWBMMHKBD1}
+  \field{labelyear}{2015}
+  \field{pages}{In Preparation}
+  \field{title}{Large-scale radiomic profiling of glioblastoma identifies an
+  imaging signature for predicting and stratifying antiangiogenic treatment
+  response}
+  \field{journaltitle}{Journal of Clinical Oncology}
+  \field{year}{2015}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

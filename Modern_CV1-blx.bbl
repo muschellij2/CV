@@ -157,6 +157,175 @@
   \field{year}{2015}
 \endentry
 
+\entry{choe2015reproducibility}{article}{}
+  \name{author}{9}{}{%
+    {{}%
+     {Choe}{C.}%
+     {Ann~S.}{A.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jones}{J.}%
+     {Craig~K.}{C.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Joel}{J.}%
+     {Suresh~E.}{S.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Belegu}{B.}%
+     {Visar}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Caffo}{C.}%
+     {Brian~S.}{B.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lindquist}{L.}%
+     {Martin~A.}{M.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zijl}{Z.}%
+     {Peter~C.M.}{P.~C.}%
+     {van}{v.}%
+     {}{}}%
+    {{}%
+     {Pekar}{P.}%
+     {James~J.}{J.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CAS+1}
+  \strng{fullhash}{CASJCKJSEMJBVCBSLMAZPCvPJJ1}
+  \field{labelyear}{2015}
+  \field{pages}{In Press}
+  \field{title}{Reproducibility and temporal structure in weekly resting-state
+  {fMRI} over a period of 3.5 years}
+  \field{journaltitle}{PloS one}
+  \field{year}{2015}
+\endentry
+
+\entry{mould2015impact}{inproceedings}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Mould}{M.}%
+     {W~Andrew}{W.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lovett}{L.}%
+     {Braeden~L}{B.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hanley}{H.}%
+     {Daniel~F}{D.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Carhuapoma}{C.}%
+     {J~Ricardo}{J.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MWA+1}
+  \strng{fullhash}{MWALBLMJHDFCJR1}
+  \field{labelyear}{2015}
+  \field{booktitle}{STROKE}
+  \field{title}{Impact of Blood Removal on Perihematomal Apparent Diffusion
+  Coefficients in Patients Treated with Minimally Invasive Surgery Plus rt-PA}
+  \field{volume}{46}
+  \field{year}{2015}
+\endentry
+
+\entry{webb2015accuracy}{article}{}
+  \name{author}{11}{}{%
+    {{}%
+     {Webb}{W.}%
+     {Alastair~JS}{A.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ullman}{U.}%
+     {Natalie~L}{N.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Morgan}{M.}%
+     {Tim~C}{T.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kornbluth}{K.}%
+     {Joshua}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Awad}{A.}%
+     {Issam~A}{I.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mayo}{M.}%
+     {Stephen}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rosenblum}{R.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ziai}{Z.}%
+     {Wendy}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zuccarrello}{Z.}%
+     {Mario}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{others}}{o.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Am Heart Assoc}%
+  }
+  \strng{namehash}{WAJ+1}
+  \strng{fullhash}{WAJUNLMTCMJKJAIAMSRMZWZMo1}
+  \field{labelyear}{2015}
+  \field{number}{9}
+  \field{pages}{2470\bibrangedash 2476}
+  \field{title}{Accuracy of the {ABC}/2 Score for Intracerebral Hemorrhage
+  Systematic Review and Analysis of {MISTIE}, {CLEAR-IVH}, and {CLEAR III}}
+  \field{volume}{46}
+  \field{journaltitle}{Stroke}
+  \field{year}{2015}
+\endentry
+
 \entry{muschelli2014reduction}{article}{}
   \name{author}{6}{}{%
     {{}%
@@ -263,64 +432,6 @@
   \field{volume}{32}
   \field{journaltitle}{Handbook of Statistics: Computational Statistics with R}
   \field{year}{2014}
-\endentry
-
-\entry{muschelli2010iterative}{thesis}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Muschelli}{M.}%
-     {John}{J.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{MJ1}
-  \strng{fullhash}{MJ1}
-  \field{labelyear}{2010}
-  \field{title}{An Iterative Approach to Hemodynamic Response Function Temporal
-  Derivatives in Statistical Parametric Mapping for Functional Neuroimaging}
-  \list{institution}{1}{%
-    {Johns Hopkins University}%
-  }
-  \field{type}{phdthesis}
-  \field{year}{2010}
-\endentry
-
-\entry{mould2015impact}{inproceedings}{}
-  \name{author}{5}{}{%
-    {{}%
-     {Mould}{M.}%
-     {W~Andrew}{W.~A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Lovett}{L.}%
-     {Braeden~L}{B.~L.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Muschelli}{M.}%
-     {John}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Hanley}{H.}%
-     {Daniel~F}{D.~F.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Carhuapoma}{C.}%
-     {J~Ricardo}{J.~R.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{MWA+1}
-  \strng{fullhash}{MWALBLMJHDFCJR1}
-  \field{labelyear}{2015}
-  \field{booktitle}{STROKE}
-  \field{title}{Impact of Blood Removal on Perihematomal Apparent Diffusion
-  Coefficients in Patients Treated with Minimally Invasive Surgery Plus rt-PA}
-  \field{volume}{46}
-  \field{year}{2015}
 \endentry
 
 \entry{eloyan2014analytic}{article}{}

@@ -3,6 +3,8 @@ library(stringr)
 bibfile = "citations.bib"
 x = read.bib(bibfile)
 
+x$hanley2012mistie = NULL
+
 titles = tolower(sapply(x, function(xx){
   auth = as.character(str_trim(xx$title[1]))
 }))
@@ -32,7 +34,8 @@ auths = tolower(sapply(x, function(xx){
 
 me.first = grepl("muschelli", auths)
 
-ord = order(-me.first, -yrs, auths)
+# ord = order(-me.first, -yrs, auths)
+ord = order(-yrs, -me.first, auths)
 x = x[ord]
 
 first = sort(me.first, decreasing=TRUE)
@@ -69,6 +72,7 @@ for (ind in seq_along(x)) {
   xx$organization = NULL
   x[ind] = xx
 }
+
 
 write.bib(entry = x, file = bibfile)
 # outfile = gsub("[.]bib", "_fixed.bib", bibfile)
