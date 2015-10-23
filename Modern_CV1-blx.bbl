@@ -57,7 +57,7 @@
   \field{labelyear}{2015}
   \field{extrayear}{3}
   \field{pages}{379\bibrangedash 385}
-  \field{title}{Validated automatic brain extraction of head CT images}
+  \field{title}{Validated automatic brain extraction of head {CT} images}
   \field{volume}{114}
   \field{journaltitle}{NeuroImage}
   \field{year}{2015}
@@ -95,7 +95,7 @@
   \field{extrayear}{1}
   \field{number}{1}
   \field{pages}{163\bibrangedash 175}
-  \field{title}{fslr: Connecting the FSL Software with R}
+  \field{title}{{fslr}: Connecting the {FSL} Software with {R}}
   \field{volume}{7}
   \field{journaltitle}{R Journal}
   \field{year}{2015}
@@ -151,7 +151,7 @@
   \strng{fullhash}{MJUNLSEMEAMNVPHDFCCM1}
   \field{labelyear}{2015}
   \field{extrayear}{2}
-  \field{pages}{STROKEAHA\bibrangedash 115}
+  \field{pages}{In Press}
   \field{title}{Quantitative Intracerebral Hemorrhage Localization}
   \field{journaltitle}{Stroke}
   \field{year}{2015}
@@ -211,7 +211,7 @@
   \field{pages}{In Press}
   \field{title}{Reproducibility and temporal structure in weekly resting-state
   {fMRI} over a period of 3.5 years}
-  \field{journaltitle}{PloS one}
+  \field{journaltitle}{PLOS ONE}
   \field{year}{2015}
 \endentry
 
@@ -269,7 +269,7 @@
 \endentry
 
 \entry{webb2015accuracy}{article}{}
-  \name{author}{11}{}{%
+  \name{author}{24}{}{%
     {{}%
      {Webb}{W.}%
      {Alastair~JS}{A.~J.}%
@@ -316,13 +316,78 @@
      {}{}%
      {}{}}%
     {{}%
-     {Zuccarrello}{Z.}%
-     {Mario}{M.}%
+     {{Aldrich}}{A.}%
+     {}{}%
      {}{}%
      {}{}}%
     {{}%
-     {{others}}{o.}%
+     {Zuccarrello}{Z.}%
+     {Francois~Mario}{F.~M.}%
      {}{}%
+     {}{}}%
+    {{}%
+     {John}{J.}%
+     {Sayona}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Harnof}{H.}%
+     {Sagi}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lopez}{L.}%
+     {George}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Broaddus}{B.}%
+     {William~C.}{W.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wijman}{W.}%
+     {Christine}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vespa}{V.}%
+     {Paul}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bullock}{B.}%
+     {Ross}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Haines}{H.}%
+     {Stephen~J.}{S.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cruz-Flores}{C.-F.}%
+     {Salvador}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tuhrim}{T.}%
+     {Stan}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hill}{H.}%
+     {Michael~D.}{M.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Narayan}{N.}%
+     {Raj}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hanley}{H.}%
+     {Daniel~F.}{D.~F.}%
      {}{}%
      {}{}}%
   }
@@ -330,7 +395,7 @@
     {Am Heart Assoc}%
   }
   \strng{namehash}{WAJ+1}
-  \strng{fullhash}{WAJUNLMTCMJKJAIAMSRMZWZMo1}
+  \strng{fullhash}{WAJUNLMTCMJKJAIAMSRMZWAZFMJSHSLGBWCWCVPBRHSJCFSTSHMDNRHDF1}
   \field{labelyear}{2015}
   \field{number}{9}
   \field{pages}{2470\bibrangedash 2476}
@@ -381,8 +446,8 @@
   \strng{fullhash}{MJNMBCBSBADPJJMSH1}
   \field{labelyear}{2014}
   \field{pages}{22\bibrangedash 35}
-  \field{title}{Reduction of motion-related artifacts in resting state fMRI
-  using aCompCor}
+  \field{title}{Reduction of motion-related artifacts in resting state {fMRI}
+  using {aCompCor}}
   \field{volume}{96}
   \field{journaltitle}{NeuroImage}
   \field{year}{2014}
@@ -442,10 +507,11 @@
   \strng{namehash}{MJBJVR1}
   \strng{fullhash}{MJBJVR1}
   \field{labelyear}{2014}
-  \field{pages}{257}
-  \field{title}{Binomial Regression in R}
+  \field{pages}{257\bibrangedash 309}
+  \field{title}{Binomial Regression in {R}}
   \field{volume}{32}
-  \field{journaltitle}{Handbook of Statistics: Computational Statistics with R}
+  \field{journaltitle}{Handbook of Statistics: Computational Statistics with
+  {R}}
   \field{year}{2014}
 \endentry
 
@@ -487,10 +553,10 @@
   \field{labelyear}{2014}
   \field{number}{2}
   \field{pages}{e89470}
-  \field{title}{Analytic programming with fMRI data: A quick-start guide for
-  statisticians using R}
+  \field{title}{Analytic programming with {fMRI} data: A quick-start guide for
+  statisticians using {R}}
   \field{volume}{9}
-  \field{journaltitle}{PloS One}
+  \field{journaltitle}{PLOS ONE}
   \field{year}{2014}
 \endentry
 
@@ -545,7 +611,7 @@
 \endentry
 
 \entry{mould2013minimally}{article}{}
-  \name{author}{11}{}{%
+  \name{author}{13}{}{%
     {{}%
      {Mould}{M.}%
      {W~Andrew}{W.~A.}%
@@ -597,8 +663,18 @@
      {}{}%
      {}{}}%
     {{}%
-     {{others}}{o.}%
+     {Awad}{A.}%
+     {Issam}{I.}%
      {}{}%
+     {}{}}%
+    {{}%
+     {Zuccarello}{Z.}%
+     {Mario}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hanley}{H.}%
+     {Daniel~F.}{D.~F.}%
      {}{}%
      {}{}}%
   }
@@ -606,7 +682,7 @@
     {Lippincott Williams \& Wilkins}%
   }
   \strng{namehash}{MWA+1}
-  \strng{fullhash}{MWACJRMJLKMTCMNABHAJUNLVPMNAo1}
+  \strng{fullhash}{MWACJRMJLKMTCMNABHAJUNLVPMNAAIZMHDF1}
   \field{labelyear}{2013}
   \field{extrayear}{1}
   \field{number}{3}
@@ -620,7 +696,7 @@
 \endentry
 
 \entry{mould2013mistie}{article}{}
-  \name{author}{11}{}{%
+  \name{author}{13}{}{%
     {{}%
      {Mould}{M.}%
      {WA}{W.}%
@@ -672,18 +748,28 @@
      {}{}%
      {}{}}%
     {{}%
-     {{others}}{o.}%
+     {Awad}{A.}%
+     {Issam}{I.}%
      {}{}%
+     {}{}}%
+    {{}%
+     {Zuccarello}{Z.}%
+     {Mario}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hanley}{H.}%
+     {Daniel~F.}{D.~F.}%
      {}{}%
      {}{}}%
   }
   \strng{namehash}{MW+1}
-  \strng{fullhash}{MWCJMJLKMTMNBHAUNVPMNo1}
+  \strng{fullhash}{MWCJMJLKMTMNBHAUNVPMNAIZMHDF1}
   \field{labelyear}{2013}
   \field{extrayear}{2}
   \field{number}{3}
   \field{pages}{627\bibrangedash 634}
-  \field{title}{MISTIE Investigators: minimally invasive surgery plus
+  \field{title}{{MISTIE} Investigators: minimally invasive surgery plus
   recombinant tissue-type plasminogen activator for intracerebral hemorrhage
   evacuation decreases perihematomal edema}
   \field{volume}{44}
@@ -735,8 +821,11 @@
   \strng{namehash}{BDG+1}
   \strng{fullhash}{BDGMJCGDSJJTRECJFMMR1}
   \field{labelyear}{2012}
-  \field{title}{Ambulatory Care Connections of Medicaid-Insured Children With
-  Sickle Cell Disease}
+  \field{number}{5}
+  \field{pages}{888\bibrangedash 894}
+  \field{title}{Ambulatory care connections of medicaid-insured children with
+  sickle cell disease}
+  \field{volume}{59}
   \field{journaltitle}{Pediatric Blood \& Cancer}
   \field{year}{2012}
 \endentry
@@ -805,6 +894,7 @@
   \strng{namehash}{EA+1}
   \strng{fullhash}{EAMJNMBLHHFZTBADJSPJJMSHo1}
   \field{labelyear}{2012}
+  \field{pages}{6}
   \field{title}{Automated diagnoses of attention deficit hyperactive disorder
   using magnetic resonance imaging}
   \field{volume}{6}
@@ -905,7 +995,7 @@
   \strng{fullhash}{JJMEMJZWMTHDFAIA1}
   \field{labelyear}{2012}
   \field{number}{5}
-  \field{pages}{1258}
+  \field{pages}{1258\bibrangedash 1264}
   \field{title}{Ventricular catheter location and the clearance of
   intraventricular hemorrhage}
   \field{volume}{70}
@@ -956,7 +1046,7 @@
   \field{pages}{1666\bibrangedash 1668}
   \field{title}{Resolution of Intraventricular Hemorrhage Varies by Ventricular
   Region and Dose of Intraventricular Thrombolytic The Clot Lysis: Evaluating
-  Accelerated Resolution of IVH (CLEAR IVH) Program}
+  Accelerated Resolution of {IVH} ({CLEAR} {IVH}) Program}
   \field{volume}{43}
   \field{journaltitle}{Stroke}
   \field{year}{2012}
@@ -1060,7 +1150,7 @@
   \strng{fullhash}{NDWSMMWRHDRMEMJHDF1}
   \field{labelyear}{2011}
   \field{number}{3}
-  \field{pages}{592}
+  \field{pages}{592\bibrangedash 601}
   \field{title}{Minimally invasive evacuation of spontaneous intracerebral
   hemorrhage using sonothrombolysis}
   \field{volume}{115}
