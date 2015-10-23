@@ -48,12 +48,12 @@ x = unique(x)
 pubs = tolower(sapply(x, function(xx){
   as.character(xx$publisher[1])
 }))
-r_pubs = grep("^r foundation statistical computing", pubs)
+r_pubs = grep("^r foundation (for |)statistical computing", pubs)
 
 for (ipub in seq_along(r_pubs)) {
   ind = r_pubs[ipub]
   xx = x[ind]
-  xx$publisher = toupper("r foundation statistical computing")
+  xx$publisher = "R Foundation for Statistical Computing"
   x[ind] = xx
 }
 

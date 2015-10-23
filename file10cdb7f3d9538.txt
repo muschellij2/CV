@@ -1,0 +1,9 @@
+* [Automated Intracerebral Hemorrhage Segmentation of CT Scans](http://muschellij2.github.io/Orals_Proposal/JSM_2015_Talk.html)
+* [PItcHPERFECT](http://muschellij2.github.io/ENAR_2015_Poster/Muschelli_John_CT_ICH_Segmentation_Poster.pdf): Primary Intracerebral Hemorrhage Prediction Employing Regression and Features Extracted from CT
+* [NAQuantitative Localization and Predictive Performance of Intracranial Hemorrhage](Quantitative Localization and Predictive Performance of Intracranial Hemorrhage)
+* [Validated Automatic Brain Extraction of Head CT Images](https:/m/github.com/muschellij2/CT_BET/blob/master/Skull_Strip_Paper/Muschelli_John_CTSkullStripping_Long_Poster.pdf)
+* [Validated Automatic Brain Extraction of Head CT Images]( https://github.com/muschellij2/CT_BET/raw/master/Skull_Strip_Paper/CT_Skull_Stripping_Presentation.pptx)
+* [Reduction of motion-related artifacts in resting state fMRI using aCompCor](https://github.com/muschellij2/Motion_Poster/raw/master/Motion_Processing_Poster_RS_2012_mb_revised_dc.pdf)
+* [Visualizing Brain Imaging in Interactive 3D](http://muschellij2.github.io/ENAR_2013_Talk/ENAR_Visualization_5Mar2013_Final.html)
+* [NAResting State Preprocessing and Motion Artifacts](Resting State Preprocessing and Motion Artifacts)
+* [NAEffects of preprocessing on motion-inuced artifacts in resting state fMRI](Effects of preprocessing on motion-inuced artifacts in resting state fMRI)

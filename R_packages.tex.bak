@@ -1,7 +1,7 @@
 
-\cventry{CRAN}{\href{http://cran.r-project.org/web/packages/fslr/index.html}{fslr}: Wrapper functions for FSL (FMRIB Software Library) from \newline Functional MRI of the Brain (FMRIB)}{}{}{}{}
+\cventry{CRAN}{\href{http://cran.r-project.org/web/packages/fslr/index.html}{fslr}: Wrapper functions for FSL (FMRIB Software Library) from Functional MRI of the Brain (FMRIB)}{}{}{}{}
 
-\cventry{}{\href{http://cran.r-project.org/web/packages/WhiteStripe/index.html}{WhiteStripe}: Whitestripe White Matter Normalization for \newline Magnetic Resonance Images}{}{}{}{}
+\cventry{}{\href{http://cran.r-project.org/web/packages/WhiteStripe/index.html}{WhiteStripe}: Whitestripe White Matter Normalization for Magnetic Resonance Images}{}{}{}{}
 
 \cventry{}{\href{http://cran.r-project.org/web/packages/brainR/index.html}{brainR}: Helper functions to misc3d and rgl packages for brain imaging}{}{}{}{}
 

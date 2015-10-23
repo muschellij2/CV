@@ -87,7 +87,7 @@
      {}{}}%
   }
   \list{publisher}{1}{%
-    {R FOUNDATION STATISTICAL COMPUTING}%
+    {R Foundation for Statistical Computing}%
   }
   \strng{namehash}{MJ+1}
   \strng{fullhash}{MJSELMCC1}
@@ -97,7 +97,7 @@
   \field{pages}{163\bibrangedash 175}
   \field{title}{fslr: Connecting the FSL Software with R}
   \field{volume}{7}
-  \field{journaltitle}{R JOURNAL}
+  \field{journaltitle}{R Journal}
   \field{year}{2015}
 \endentry
 
@@ -215,16 +215,16 @@
   \field{year}{2015}
 \endentry
 
-\entry{mould2015impact}{inproceedings}{}
-  \name{author}{5}{}{%
+\entry{sweeney2015pcs}{article}{}
+  \name{author}{8}{}{%
     {{}%
-     {Mould}{M.}%
-     {W~Andrew}{W.~A.}%
+     {Sweeney}{S.}%
+     {Elizabeth~M.}{E.~M.}%
      {}{}%
      {}{}}%
     {{}%
-     {Lovett}{L.}%
-     {Braeden~L}{B.~L.}%
+     {Shinohara}{S.}%
+     {Russell~T.}{R.~T.}%
      {}{}%
      {}{}}%
     {{}%
@@ -233,23 +233,38 @@
      {}{}%
      {}{}}%
     {{}%
-     {Hanley}{H.}%
-     {Daniel~F}{D.~F.}%
+     {Dewey}{D.}%
+     {Blake~E.}{B.~E.}%
      {}{}%
      {}{}}%
     {{}%
-     {Carhuapoma}{C.}%
-     {J~Ricardo}{J.~R.}%
+     {Reich}{R.}%
+     {Daniel~S.}{D.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Crainiceanu}{C.}%
+     {Ciprian~M.}{C.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schindler}{S.}%
+     {Matthew~K.}{M.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Eloyan}{E.}%
+     {Ani}{A.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{MWA+1}
-  \strng{fullhash}{MWALBLMJHDFCJR1}
+  \strng{namehash}{SEM+1}
+  \strng{fullhash}{SEMSRTMJDBERDSCCMSMKEA1}
   \field{labelyear}{2015}
-  \field{booktitle}{STROKE}
-  \field{title}{Impact of Blood Removal on Perihematomal Apparent Diffusion
-  Coefficients in Patients Treated with Minimally Invasive Surgery Plus rt-PA}
-  \field{volume}{46}
+  \field{pages}{Conditionally Accepted}
+  \field{title}{Relating multi-sequence longitudinal intensity profiles and
+  clinical covariates in incident multiple sclerosis lesions}
+  \field{journaltitle}{NeuroImage: Clinical}
   \field{year}{2015}
 \endentry
 
@@ -369,7 +384,7 @@
   \field{title}{Reduction of motion-related artifacts in resting state fMRI
   using aCompCor}
   \field{volume}{96}
-  \field{journaltitle}{Neuroimage}
+  \field{journaltitle}{NeuroImage}
   \field{year}{2014}
 \endentry
 
@@ -475,7 +490,7 @@
   \field{title}{Analytic programming with fMRI data: A quick-start guide for
   statisticians using R}
   \field{volume}{9}
-  \field{journaltitle}{PloS one}
+  \field{journaltitle}{PloS One}
   \field{year}{2014}
 \endentry
 
@@ -525,7 +540,7 @@
   \field{title}{Disruption of functional organization within the primary motor
   cortex in children with autism}
   \field{volume}{35}
-  \field{journaltitle}{Human brain mapping}
+  \field{journaltitle}{Human Brain Mapping}
   \field{year}{2014}
 \endentry
 
@@ -593,7 +608,7 @@
   \strng{namehash}{MWA+1}
   \strng{fullhash}{MWACJRMJLKMTCMNABHAJUNLVPMNAo1}
   \field{labelyear}{2013}
-  \field{extrayear}{2}
+  \field{extrayear}{1}
   \field{number}{3}
   \field{pages}{627\bibrangedash 634}
   \field{title}{Minimally invasive surgery plus recombinant tissue-type
@@ -601,41 +616,6 @@
   perihematomal edema}
   \field{volume}{44}
   \field{journaltitle}{Stroke}
-  \field{year}{2013}
-\endentry
-
-\entry{mould2013administration}{inproceedings}{}
-  \name{author}{4}{}{%
-    {{}%
-     {Mould}{M.}%
-     {W~Andrew}{W.~A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Carhuapoma}{C.}%
-     {J~Ricardo}{J.~R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Muschelli}{M.}%
-     {John}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Hanley}{H.}%
-     {Daniel~F}{D.~F.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{MWA+1}
-  \strng{fullhash}{MWACJRMJHDF1}
-  \field{labelyear}{2013}
-  \field{extrayear}{1}
-  \field{booktitle}{STROKE}
-  \field{number}{2}
-  \field{title}{Administration of Tissue Plasminogen Activator to Patients with
-  Spontaneous ICH Does Not Lead to an Increase in Perihematomal Edema}
-  \field{volume}{44}
   \field{year}{2013}
 \endentry
 
@@ -700,7 +680,7 @@
   \strng{namehash}{MW+1}
   \strng{fullhash}{MWCJMJLKMTMNBHAUNVPMNo1}
   \field{labelyear}{2013}
-  \field{extrayear}{3}
+  \field{extrayear}{2}
   \field{number}{3}
   \field{pages}{627\bibrangedash 634}
   \field{title}{MISTIE Investigators: minimally invasive surgery plus
@@ -708,60 +688,6 @@
   evacuation decreases perihematomal edema}
   \field{volume}{44}
   \field{journaltitle}{Stroke}
-  \field{year}{2013}
-\endentry
-
-\entry{ullman2013catheter}{inproceedings}{}
-  \name{author}{8}{}{%
-    {{}%
-     {Ullman}{U.}%
-     {Natalie~L}{N.~L.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Muschelli}{M.}%
-     {John}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Li}{L.}%
-     {Matthew}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Morgan}{M.}%
-     {Timothy~C}{T.~C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Awad}{A.}%
-     {Issam~A}{I.~A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Zuccarello}{Z.}%
-     {Mario}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Lane}{L.}%
-     {Karen}{K.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Hanley}{H.}%
-     {Daniel~F}{D.~F.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{UNL+1}
-  \strng{fullhash}{UNLMJLMMTCAIAZMLKHDF1}
-  \field{labelyear}{2013}
-  \field{booktitle}{STROKE}
-  \field{number}{2}
-  \field{title}{Catheter Placement and Surgical Training in the Minimally
-  Invasive Surgery Plus rt-PA for Intracerebral Hemorrhage Evacuation Trial}
-  \field{volume}{44}
   \field{year}{2013}
 \endentry
 
@@ -882,76 +808,7 @@
   \field{title}{Automated diagnoses of attention deficit hyperactive disorder
   using magnetic resonance imaging}
   \field{volume}{6}
-  \field{journaltitle}{Frontiers in systems neuroscience}
-  \field{year}{2012}
-\endentry
-
-\entry{hanley2012mistie}{inproceedings}{}
-  \name{author}{11}{}{%
-    {{}%
-     {Hanley}{H.}%
-     {Daniel~F}{D.~F.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Zuccarello}{Z.}%
-     {M}{M}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Lane}{L.}%
-     {K}{K}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Broaddus}{B.}%
-     {WC}{W.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Awad}{A.}%
-     {I}{I}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Aldrich}{A.}%
-     {EF}{E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Wijman}{W.}%
-     {C}{C}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Vespa}{V.}%
-     {P}{P}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Caron}{C.}%
-     {JL}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Huang}{H.}%
-     {J}{J}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{others}}{o.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{HDF+1}
-  \strng{fullhash}{HDFZMLKBWAIAEWCVPCJHJo1}
-  \field{labelyear}{2012}
-  \field{booktitle}{CEREBROVASCULAR DISEASES}
-  \field{pages}{4\bibrangedash 4}
-  \field{title}{MISTIE phase II results: safety, efficacy and surgical
-  performance}
-  \field{volume}{34}
+  \field{journaltitle}{Frontiers in Systems Neuroscience}
   \field{year}{2012}
 \endentry
 
@@ -999,7 +856,7 @@
   \field{title}{Drainage efficiency with dual versus single catheters in severe
   intraventricular hemorrhage}
   \field{volume}{16}
-  \field{journaltitle}{Neurocritical care}
+  \field{journaltitle}{Neurocritical Care}
   \field{year}{2012}
 \endentry
 
@@ -1207,7 +1064,7 @@
   \field{title}{Minimally invasive evacuation of spontaneous intracerebral
   hemorrhage using sonothrombolysis}
   \field{volume}{115}
-  \field{journaltitle}{Journal of neurosurgery}
+  \field{journaltitle}{Journal of Neurosurgery}
   \field{year}{2011}
 \endentry
 
@@ -1267,46 +1124,6 @@
   \field{volume}{32}
   \field{journaltitle}{Infection Control}
   \field{year}{2011}
-\endentry
-
-\entry{hinson2010dual}{inproceedings}{}
-  \name{author}{5}{}{%
-    {{}%
-     {Hinson}{H.}%
-     {Holly~E}{H.~E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Melnychuk}{M.}%
-     {Eric}{E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Muschelli}{M.}%
-     {John}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Hanley}{H.}%
-     {Daniel~F}{D.~F.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Ziai}{Z.}%
-     {Wendy~C}{W.~C.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{HHE+1}
-  \strng{fullhash}{HHEMEMJHDFZWC1}
-  \field{labelyear}{2010}
-  \field{booktitle}{NEUROLOGY}
-  \field{number}{9}
-  \field{pages}{A129\bibrangedash A129}
-  \field{title}{Dual Intraventricular Catheter Use in Severe Intraventricular
-  Hemorrhage}
-  \field{volume}{74}
-  \field{year}{2010}
 \endentry
 
 \lossort

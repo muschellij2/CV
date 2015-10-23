@@ -52,62 +52,10 @@
   \strng{namehash}{FJP+1}
   \strng{fullhash}{FJPSEMMJCCMSRTADNIt1}
   \field{labelyear}{2015}
+  \field{pages}{Submitted}
   \field{title}{Removing inter-subject technical variability in magnetic
   resonance imaging studies}
-  \field{journaltitle}{Preparation}
-  \field{year}{2015}
-\endentry
-
-\entry{sweeney2015pcs}{article}{}
-  \name{author}{8}{}{%
-    {{}%
-     {Sweeney}{S.}%
-     {Elizabeth~M.}{E.~M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Shinohara}{S.}%
-     {Russell~T.}{R.~T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Muschelli}{M.}%
-     {John}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Dewey}{D.}%
-     {Blake~E.}{B.~E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Reich}{R.}%
-     {Daniel~S.}{D.~S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Crainiceanu}{C.}%
-     {Ciprian~M.}{C.~M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Schindler}{S.}%
-     {Matthew~K.}{M.~K.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Eloyan}{E.}%
-     {Ani}{A.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{SEM+1}
-  \strng{fullhash}{SEMSRTMJDBERDSCCMSMKEA1}
-  \field{labelyear}{2015}
-  \field{pages}{In Preparation}
-  \field{title}{Relating multi-sequence longitudinal intensity profiles and
-  clinical covariates in incident multiple sclerosis lesions}
-  \field{journaltitle}{NeuroImage: Clinical}
+  \field{journaltitle}{NeuroImage}
   \field{year}{2015}
 \endentry
 
@@ -177,7 +125,7 @@
   \strng{namehash}{KP+1}
   \strng{fullhash}{KPGMMJWANUSRTRASHPWWBMMHKBD1}
   \field{labelyear}{2015}
-  \field{pages}{In Preparation}
+  \field{pages}{Submitted}
   \field{title}{Large-scale radiomic profiling of glioblastoma identifies an
   imaging signature for predicting and stratifying antiangiogenic treatment
   response}
