@@ -1,7 +1,7 @@
 
-\cventry{CRAN}{\href{http://cran.r-project.org/web/packages/fslr/index.html}{fslr}: Wrapper functions for FSL (FMRIB Software Library) from Functional MRI of the Brain (FMRIB)}{}{}{}{}
+\cventry{CRAN}{\href{http://cran.r-project.org/web/packages/fslr/index.html}{fslr}: Wrapper functions for FSL (FMRIB Software Library) from \newline Functional MRI of the Brain (FMRIB)}{}{}{}{}
 
-\cventry{}{\href{http://cran.r-project.org/web/packages/WhiteStripe/index.html}{WhiteStripe}: Whitestripe White Matter Normalization for Magnetic Resonance Images}{}{}{}{}
+\cventry{}{\href{http://cran.r-project.org/web/packages/WhiteStripe/index.html}{WhiteStripe}: Whitestripe White Matter Normalization for \newline Magnetic Resonance Images}{}{}{}{}
 
 \cventry{}{\href{http://cran.r-project.org/web/packages/brainR/index.html}{brainR}: Helper functions to misc3d and rgl packages for brain imaging}{}{}{}{}
 
@@ -9,7 +9,7 @@
 
 \cventry{GitHub}{\href{https://github.com/muschellij2/drammsr}{drammsr}: Port of Deformable Registration via Attribute Matching and Mutual-Saliency Weighting (\href{http://www.cbica.upenn.edu/sbia/software/dramms/}{DRAMMS}) Registration to R}{}{}{}{}
 
-\cventry{}{\href{https://github.com/muschellij2/extrantsr}{extrantsr}: Additional functionality and extensions to the ANTsR R package}{}{}{}{}
+\cventry{}{\href{https://github.com/muschellij2/extrantsr}{extrantsr}: Additional functionality and extensions to the \newline ANTsR R package}{}{}{}{}
 
 \cventry{}{\href{https://github.com/muschellij2/dcmniir}{dcm2niir}: R wrapper for dcm2nii DICOM converter}{}{}{}{}
 
