@@ -10,11 +10,13 @@
 \usepackage[scale=0.8]{geometry}
 
 
-\usepackage[style=authoryear, 
+\usepackage[
+style = authoryear, 
 sorting = none, 
-dashed=false, 
-maxbibnames=99,
-backend=bibtex]{biblatex}
+dashed = false,
+maxbibnames = 99,
+backend = bibtex
+]{biblatex}
 
 \DeclareFieldFormat{titlecase}{\MakeTitleCase{#1}}
 
@@ -41,6 +43,7 @@ backend=bibtex]{biblatex}
 \newcommand*{\bibyear}{}
 \renewbibmacro{in:}{}
 
+
 \defbibenvironment{bibliography}
   {\list
      {\iffieldequals{year}{\bibyear}
@@ -63,7 +66,7 @@ backend=bibtex]{biblatex}
 \firstname{John}
 \familyname{Muschelli}
 %\title{Resumé title (optional)}               % optional, remove the line if not wanted
-\address{2120 Moyer St, Baltimore MD}{21231}    % optional, remove the line if not wanted
+\address{2120 Moyer St,}{Baltimore MD 21231}    % optional, remove the line if not wanted
 \mobile{610-291-7685}                    % optional, remove the line if not wanted
 %\phone{phone (optional)}                      % optional, remove the line if not wanted
 %\fax{fax (optional)}                          % optional, remove the line if not wanted
@@ -108,9 +111,9 @@ Twitter: \href{https://twitter.com/StrictlyStat}{@StrictlyStat} } % optional, re
   \ifnumequal{\value{listcount}}{1}
     {\ifnumequal{\value{liststop}}{1}
       {\expandafter\ifstrequal\tempname{##1}{\textbf{##1\addcomma\addspace ##4\addcomma\isdot}}{##1\addcomma\addspace ##4\addcomma\isdot}}
-      {\expandafter\ifstrequal\tempname{##1}{\textbf{##1\addcomma\addspace ##4}}{##1\addcomma\addspace ##4}}}
+      {\expandafter\ifstrequal\tempname{##1}{\textbf{##1\addcomma\addspace ##4\addcomma\isdot}}{##1\addcomma\addspace ##4\addcomma\isdot}}}
     {\ifnumless{\value{listcount}}{\value{liststop}}
-      {\expandafter\ifstrequal\tempname{##1}{\textbf{\addcomma\addspace ##1\addcomma\addspace ##4}}{\addcomma\addspace ##1\addcomma\addspace ##4}}
+      {\expandafter\ifstrequal\tempname{##1}{\textbf{\addcomma\addspace ##1\addcomma\addspace ##4\addcomma\isdot}}{\addcomma\addspace ##1\addcomma\addspace ##4\addcomma\isdot}}
       {\expandafter\ifstrequal\tempname{##1}{\textbf{\addcomma\addspace ##1\addcomma\addspace ##4\addcomma\isdot}}{\addcomma\addspace ##1\addcomma\addspace ##4\addcomma\isdot}}%
     }%
 }%
@@ -189,10 +192,11 @@ Twitter: \href{https://twitter.com/StrictlyStat}{@StrictlyStat} } % optional, re
 
 
 \section{Skills}
-\cvcomputer{\textbf{Programming}}{\hfill \newline Proficient: R, bash, Stata, Matlab. \\
-Beginner: SAS, Python}{}{}{}{}
+\cvcomputer{\textbf{Languages}}{Proficient: R, bash, Stata, MATLAB. \\
+Beginner: SAS, Python, \href{http://www.cplusplus.com/}{C++}, \href{http://msdn.microsoft.com/en-us/vbasic/default}{Visual Basic}, JavaScript}{}{}{}{}
+
 \cvcomputer{\textbf{Markup}}{ \TeX{}, \href{http://www.latex-project.org/}{\LaTeX{}}, B\textsc{ib}\TeX{}, TeXShop, WinEdt, knitr, HTML, CSS}{}{}{}{}
-\cvcomputer{\textbf{Software  platforms}}{ \href{http://www.cplusplus.com/}{C++}, \href{http://msdn.microsoft.com/en-us/vbasic/default}{Visual Basic}, JavaScript}{}{}{}{}
+
 
 
 \section{Honors and Awards}

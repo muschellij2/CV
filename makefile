@@ -26,3 +26,7 @@ ${fname}.pdf: ${fname}.tex education.tex \
 	open ${fname}.pdf
 clean:
 	rm ${fname}.pdf
+open:
+	open ${fname}.pdf
+edit:
+	open ${fname}.tex	

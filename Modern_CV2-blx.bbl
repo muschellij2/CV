@@ -17,7 +17,7 @@
 \endgroup
 
 \entry{fortin2015ravel}{article}{}
-  \name{author}{6}{}{%
+  \name{author}{5}{}{%
     {{}%
      {Fortin}{F.}%
      {Jean-Philippe}{J.-P.}%
@@ -43,14 +43,9 @@
      {Russell~T.}{R.~T.}%
      {}{}%
      {}{}}%
-    {{}%
-     {Alzheimer's Disease Neuroimaging~Initiative}{A.~D. N.~I.}%
-     {}{}%
-     {the}{t.}%
-     {}{}}%
   }
   \strng{namehash}{FJP+1}
-  \strng{fullhash}{FJPSEMMJCCMSRTADNIt1}
+  \strng{fullhash}{FJPSEMMJCCMSRT1}
   \field{labelyear}{2015}
   \field{pages}{Submitted}
   \field{title}{Removing inter-subject technical variability in magnetic

@@ -39,14 +39,14 @@
 @Article{sweeney2015pcs,
   title = {Relating multi-sequence longitudinal intensity profiles and clinical covariates in incident multiple sclerosis lesions},
   author = {Elizabeth M. Sweeney and Russell T. Shinohara and John Muschelli and Blake E. Dewey and Daniel S. Reich and Ciprian M. Crainiceanu and Matthew K. Schindler and Ani Eloyan},
-  pages = {Conditionally Accepted},
+  pages = {In Press},
   journal = {NeuroImage: Clinical},
   year = {2015},
 }
 
 @Article{webb2015accuracy,
   title = {Accuracy of the {ABC}/2 Score for Intracerebral Hemorrhage Systematic Review and Analysis of {MISTIE}, {CLEAR-IVH}, and {CLEAR III}},
-  author = {Alastair JS Webb and Natalie L Ullman and Tim C Morgan and John Muschelli and Joshua Kornbluth and Issam A Awad and Stephen Mayo and Michael Rosenblum and Wendy Ziai and Mario Zuccarrello, Aldrich, Francois and John, Sayona and Harnof, Sagi and Lopez, George and Broaddus, William C. and Wijman, Christine and Vespa, Paul and Bullock, Ross and Haines, Stephen J. and Cruz-Flores, Salvador and Tuhrim, Stan and Hill, Michael D. and Narayan, Raj and Hanley, Daniel F.},
+  author = {Alastair JS Webb and Natalie L Ullman and Tim C Morgan and John Muschelli and Joshua Kornbluth and Issam A Awad and Stephen Mayo and Michael Rosenblum and Wendy Ziai and {Aldrich} and Francois Mario Zuccarrello and Sayona John and Sagi Harnof and George Lopez and William C. Broaddus and Christine Wijman and Paul Vespa and Ross Bullock and Stephen J. Haines and Salvador Cruz-Flores and Stan Tuhrim and Michael D. Hill and Raj Narayan and Daniel F. Hanley},
   journal = {Stroke},
   volume = {46},
   number = {9},

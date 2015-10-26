@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.4)  23 OCT 2015 16:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.4)  26 OCT 2015 14:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -960,8 +960,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip86
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 120.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 120.
+Package hyperref Info: Option `breaklinks' set `true' on input line 123.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 123.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -974,23 +974,23 @@ File: english.lbx 2014/06/25 v2.9a biblatex localization (PK/JW/AB)
 (./Modern_CV.aux)
 \openout1 = `Modern_CV.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 120.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 123.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1022,7 +1022,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 120.
+LaTeX Info: Redefining \microtypecontext on input line 123.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1088,10 +1088,10 @@ Package biblatex Info: ... file 'Modern_CV2-blx.bbl' found.
 Package biblatex Info: ... file 'Modern_CV3-blx.bbl' not found.
 
 No file Modern_CV3-blx.bbl.
-Package biblatex Info: Reference section=0 on input line 120.
-Package biblatex Info: Reference segment=0 on input line 120.
+Package biblatex Info: Reference section=0 on input line 123.
+Package biblatex Info: Reference segment=0 on input line 123.
 \AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring OFF on input line 120.
+Package hyperref Info: Link coloring OFF on input line 123.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1100,9 +1100,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count350
 )
-LaTeX Info: Redefining \ref on input line 120.
-LaTeX Info: Redefining \pageref on input line 120.
-LaTeX Info: Redefining \nameref on input line 120.
+LaTeX Info: Redefining \ref on input line 123.
+LaTeX Info: Redefining \pageref on input line 123.
+LaTeX Info: Redefining \nameref on input line 123.
 
 (./Modern_CV.out) (./Modern_CV.out)
 \@outlinefile=\write5
@@ -1112,39 +1112,39 @@ LaTeX Info: Redefining \nameref on input line 120.
 <seeds.png, id=67, 411.5375pt x 371.3875pt>
 File: seeds.png Graphic file (type png)
  <use seeds.png>
-Package pdftex.def Info: seeds.png used on input line 122.
+Package pdftex.def Info: seeds.png used on input line 125.
 (pdftex.def)             Requested size: 59.9948pt x 59.99556pt.
 \makecvtitledetailsbox=\box55
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 124.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 127.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 124.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 127.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 124
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 127
 .
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 124
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 127
 .
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 124.
+(Font)              <10> on input line 127.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 124.
+(Font)              <7> on input line 127.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 124.
+(Font)              <5> on input line 127.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
@@ -1153,7 +1153,7 @@ File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 \makecvtitledetailswidth=\skip87
 \makecvtitlepicturewidth=\skip88
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--124
+Underfull \hbox (badness 10000) in paragraph at lines 125--127
 
  []
 
@@ -1169,26 +1169,26 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./seeds
 .png>])
 (./teaching.tex) (./teaching_assistant.tex)
-Package biblatex Info: Reference section=1 on input line 152.
+Package biblatex Info: Reference section=1 on input line 155.
 \openout4 = `Modern_CV1-blx.aux'.
 
-Package biblatex Info: Setting label 'refsection:1' on input line 152.
+Package biblatex Info: Setting label 'refsection:1' on input line 155.
  [2] [3]
-Package biblatex Info: Reference section=0 on input line 155.
-Package biblatex Info: Reference section=2 on input line 158.
+Package biblatex Info: Reference section=0 on input line 158.
+Package biblatex Info: Reference section=2 on input line 161.
 \openout4 = `Modern_CV2-blx.aux'.
 
-Package biblatex Info: Setting label 'refsection:2' on input line 158.
-Package biblatex Info: Reference section=0 on input line 161.
-Package biblatex Info: Reference section=3 on input line 163.
+Package biblatex Info: Setting label 'refsection:2' on input line 161.
+Package biblatex Info: Reference section=0 on input line 164.
+Package biblatex Info: Reference section=3 on input line 166.
 \openout4 = `Modern_CV3-blx.aux'.
 
-Package biblatex Info: Setting label 'refsection:3' on input line 163.
+Package biblatex Info: Setting label 'refsection:3' on input line 166.
 
 
-LaTeX Warning: Empty bibliography on input line 165.
+LaTeX Warning: Empty bibliography on input line 168.
 
-Package biblatex Info: Reference section=0 on input line 166.
+Package biblatex Info: Reference section=0 on input line 169.
 (./talks_and_presentations.tex [4]) (./R_packages.tex) (./shinyapps.tex
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 1.
 
@@ -1199,22 +1199,22 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) [5]
+ [5])
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
 
-Underfull \hbox (badness 4353) in paragraph at lines 195--195
+Underfull \hbox (badness 4353) in paragraph at lines 198--198
 []\T1/lmr/m/n/10 (+20) T[]X, []L[]T[]X[], B\T1/lmr/m/sc/10 (+20) ib\T1/lmr/m/n/
 10 (+20) T[]X, TeXShop,
  []
 
-(./hackathons.tex) (./academic_service.tex) [6] [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 306.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 306.
+(./hackathons.tex) (./academic_service.tex [6]) [7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 309.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 309.
  (./Modern_CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 306.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 306.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 309.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 309.
 Package rerunfilecheck Info: File `Modern_CV.out' has not changed.
 (rerunfilecheck)             Checksum: EEEA602074DEE37768AC2782CD19CE7D;1934.
 
@@ -1231,11 +1231,11 @@ Package logreq Info: Writing requests to 'Modern_CV.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31326 strings out of 493109
- 575468 string characters out of 6135005
- 739297 words of memory out of 5000000
+ 31330 strings out of 493109
+ 575510 string characters out of 6135005
+ 738314 words of memory out of 5000000
  34202 multiletter control sequences out of 15000+600000
- 74700 words of font info for 102 fonts, out of 8000000 for 9000
+ 74913 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,13n,58p,10380b,1102s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
@@ -1249,10 +1249,10 @@ ocal/texlive/2014/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2014/te
 xmf-dist/fonts/type1/public/lm/lmtto10.pfb></usr/local/texlive/2014/texmf-dist/
 fonts/type1/public/marvosym/marvosym.pfb>
-Output written on Modern_CV.pdf (7 pages, 385604 bytes).
+Output written on Modern_CV.pdf (7 pages, 386322 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
- 213 compressed objects within 3 object streams
+ 240 PDF objects out of 1000 (max. 8388607)
+ 216 compressed objects within 3 object streams
  46 named destinations out of 1000 (max. 500000)
  26250 words of extra memory for PDF output out of 29859 (max. 10000000)
 
