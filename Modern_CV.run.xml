@@ -41,20 +41,18 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
       <file>Modern_CV.aux</file>
       <file>Modern_CV1-blx.aux</file>
       <file>Modern_CV2-blx.aux</file>
-      <file>Modern_CV3-blx.aux</file>
       <file>Modern_CV-blx.bib</file>
     </provides>
     <requires type="dynamic">
       <file>Modern_CV.bbl</file>
       <file>Modern_CV1-blx.bbl</file>
       <file>Modern_CV2-blx.bbl</file>
-      <file>Modern_CV3-blx.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-compat.def</file>
@@ -142,33 +140,6 @@
     </requires>
     <requires type="editable">
       <file>submitted.bib</file>
-    </requires>
-    <requires type="static">
-      <file>biblatex.bst</file>
-    </requires>
-  </external>
-  <external package="biblatex" priority="5" active="1">
-    <generic>bibtex</generic>
-    <cmdline>
-      <binary>bibtex</binary>
-      <option>-min-crossrefs 2</option>
-      <infile>Modern_CV3-blx</infile>
-    </cmdline>
-    <input>
-      <file>Modern_CV3-blx.aux</file>
-    </input>
-    <output>
-      <file>Modern_CV3-blx.bbl</file>
-    </output>
-    <provides type="dynamic">
-      <file>Modern_CV3-blx.bbl</file>
-    </provides>
-    <requires type="dynamic">
-      <file>Modern_CV3-blx.aux</file>
-      <file>Modern_CV-blx.bib</file>
-    </requires>
-    <requires type="editable">
-      <file>preparation.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

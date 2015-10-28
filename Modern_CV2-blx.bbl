@@ -128,6 +128,54 @@
   \field{year}{2015}
 \endentry
 
+\entry{bundy2015peds}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Bundy}{B.}%
+     {David~Gordon}{D.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Clemens}{C.}%
+     {Gwendolyn}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Strouse}{S.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thompson}{T.}%
+     {Richard}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Casella}{C.}%
+     {James}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Miller}{M.}%
+     {Marlene}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BDG+1}
+  \strng{fullhash}{BDGMJCGSJTRCJMM1}
+  \field{labelyear}{2015}
+  \field{pages}{Submitted}
+  \field{title}{Preventive Care Delivery to Young Children with Sickle Cell
+  Disease}
+  \field{journaltitle}{Journal of Pediatric Hematology and Oncology}
+  \field{year}{2015}
+\endentry
+
 \lossort
 \endlossort
 

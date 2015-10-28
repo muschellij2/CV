@@ -1,0 +1,44 @@
+
+
+<<echo = FALSE, results = "hide", message=FALSE, error=FALSE, warning=FALSE>>=
+if (!require(cranlogs)){
+library(devtools)
+install_github("metacran/cranlogs")
+}
+library(plyr)
+first_date = "2014-01-10"
+today = Sys.Date()
+long_today = format(Sys.time(), "%B %d, %Y")
+packs = c("fslr", "WhiteStripe", "brainR", "matlabr")
+dl = cran_downloads( from = first_date, to = today, 
+	packages = packs)
+dl = ddply(dl, .(package), summarise, count = sum(count))
+cn = dl$package
+dl = dl$count
+names(dl) = cn
+@
+
+All download counts are from RStudio CRAN logs and are accurate as of \Sexpr{long_today}
+
+\cventry{CRAN}{\href{http://cran.r-project.org/web/packages/fslr/index.html}{fslr}: Wrapper functions for FSL (FMRIB Software Library) from \newline Functional MRI of the Brain (FMRIB)}{\newline Downloads: \Sexpr{dl['fslr']}}{}{}{}
+
+\cventry{}{\href{http://cran.r-project.org/web/packages/WhiteStripe/index.html}{WhiteStripe}: Whitestripe White Matter Normalization for \newline Magnetic Resonance Images}{\newline Downloads: \Sexpr{dl['WhiteStripe']}}{}{}{}
+
+\cventry{}{\href{http://cran.r-project.org/web/packages/brainR/index.html}{brainR}: Helper functions to misc3d and rgl packages for brain imaging}{\newline Downloads: \Sexpr{dl['brainR']}}{}{}{}
+
+\cventry{}{\href{http://cran.r-project.org/web/packages/matlabr/index.html}{matlabr}: R interface with calling MATLAB code without a server}{\newline Downloads: \Sexpr{dl['matlabr']}}{}{}{}
+
+\cventry{GitHub}{\href{https://github.com/muschellij2/drammsr}{drammsr}: Port of Deformable Registration via Attribute Matching and Mutual-Saliency Weighting (\href{http://www.cbica.upenn.edu/sbia/software/dramms/}{DRAMMS}) Registration to R}{}{}{}{}
+
+\cventry{}{\href{https://github.com/muschellij2/extrantsr}{extrantsr}: Additional functionality and extensions to the \newline ANTsR R package}{}{}{}{}
+
+\cventry{}{\href{https://github.com/muschellij2/dcmniir}{dcm2niir}: R wrapper for dcm2nii DICOM converter}{}{}{}{}
+
+\cventry{}{\href{https://github.com/muschellij2/spm12r}{spm12r}: R interface with calling SPM12 MATLAB processing}{}{}{}{}
+
+\cventry{}{\href{https://github.com/muschellij2/rscopus}{rscopus}: Interface with SCOPUS and Elsevier API in R}{}{}{}{}
+
+\cventry{}{\href{https://github.com/muschellij2/googleCite}{googleCite}: Scraper for Google Citations}{}{}{}{}
+
+\cventry{}{\href{https://github.com/muschellij2/processVISION}{processVISION}: Scripts for Parsing XML from VISION database}{}{}{}{}
+

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.4)  26 OCT 2015 14:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.4)  28 OCT 2015 18:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1085,13 +1085,11 @@ Package biblatex Info: ... file 'Modern_CV1-blx.bbl' found.
  (./Modern_CV1-blx.bbl)
 Package biblatex Info: ... file 'Modern_CV2-blx.bbl' found.
  (./Modern_CV2-blx.bbl)
-Package biblatex Info: ... file 'Modern_CV3-blx.bbl' not found.
-
-No file Modern_CV3-blx.bbl.
 Package biblatex Info: Reference section=0 on input line 123.
 Package biblatex Info: Reference segment=0 on input line 123.
 \AtBeginShipoutBox=\box54
 Package hyperref Info: Link coloring OFF on input line 123.
+
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1180,15 +1178,7 @@ Package biblatex Info: Reference section=2 on input line 161.
 
 Package biblatex Info: Setting label 'refsection:2' on input line 161.
 Package biblatex Info: Reference section=0 on input line 164.
-Package biblatex Info: Reference section=3 on input line 166.
-\openout4 = `Modern_CV3-blx.aux'.
 
-Package biblatex Info: Setting label 'refsection:3' on input line 166.
-
-
-LaTeX Warning: Empty bibliography on input line 168.
-
-Package biblatex Info: Reference section=0 on input line 169.
 (./talks_and_presentations.tex [4]) (./R_packages.tex) (./shinyapps.tex
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 1.
 
@@ -1217,24 +1207,15 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 309.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 309.
 Package rerunfilecheck Info: File `Modern_CV.out' has not changed.
 (rerunfilecheck)             Checksum: EEEA602074DEE37768AC2782CD19CE7D;1934.
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                Modern_CV3-blx
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'Modern_CV.run.xml'.
 \openout1 = `Modern_CV.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31330 strings out of 493109
- 575510 string characters out of 6135005
- 738314 words of memory out of 5000000
- 34202 multiletter control sequences out of 15000+600000
+ 31323 strings out of 493109
+ 575426 string characters out of 6135005
+ 737314 words of memory out of 5000000
+ 34195 multiletter control sequences out of 15000+600000
  74913 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,13n,58p,10380b,1102s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1249,10 +1230,10 @@ ocal/texlive/2014/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2014/te
 xmf-dist/fonts/type1/public/lm/lmtto10.pfb></usr/local/texlive/2014/texmf-dist/
 fonts/type1/public/marvosym/marvosym.pfb>
-Output written on Modern_CV.pdf (7 pages, 386322 bytes).
+Output written on Modern_CV.pdf (7 pages, 386665 bytes).
 PDF statistics:
- 240 PDF objects out of 1000 (max. 8388607)
- 216 compressed objects within 3 object streams
- 46 named destinations out of 1000 (max. 500000)
+ 241 PDF objects out of 1000 (max. 8388607)
+ 217 compressed objects within 3 object streams
+ 47 named destinations out of 1000 (max. 500000)
  26250 words of extra memory for PDF output out of 29859 (max. 10000000)
 
