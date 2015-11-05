@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.4)  28 OCT 2015 18:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.4)  5 NOV 2015 15:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1179,7 +1179,12 @@ Package biblatex Info: Reference section=2 on input line 161.
 Package biblatex Info: Setting label 'refsection:2' on input line 161.
 Package biblatex Info: Reference section=0 on input line 164.
 
-(./talks_and_presentations.tex [4]) (./R_packages.tex) (./shinyapps.tex
+(./talks_and_presentations.tex [4]) (./R_packages.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
+ []
+
+[5]) (./shinyapps.tex
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 1.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/t1lmtt.fd
@@ -1189,7 +1194,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [5])
+)
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1212,11 +1217,11 @@ Package logreq Info: Writing requests to 'Modern_CV.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31323 strings out of 493109
- 575426 string characters out of 6135005
- 737314 words of memory out of 5000000
+ 31321 strings out of 493109
+ 575406 string characters out of 6135005
+ 738314 words of memory out of 5000000
  34195 multiletter control sequences out of 15000+600000
- 74913 words of font info for 104 fonts, out of 8000000 for 9000
+ 74830 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,13n,58p,10380b,1102s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
@@ -1230,7 +1235,7 @@ ocal/texlive/2014/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2014/te
 xmf-dist/fonts/type1/public/lm/lmtto10.pfb></usr/local/texlive/2014/texmf-dist/
 fonts/type1/public/marvosym/marvosym.pfb>
-Output written on Modern_CV.pdf (7 pages, 386665 bytes).
+Output written on Modern_CV.pdf (7 pages, 386762 bytes).
 PDF statistics:
  241 PDF objects out of 1000 (max. 8388607)
  217 compressed objects within 3 object streams
