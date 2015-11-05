@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.4)  5 NOV 2015 15:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.4)  5 NOV 2015 16:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1107,7 +1107,7 @@ LaTeX Info: Redefining \nameref on input line 123.
 \openout5 = `Modern_CV.out'.
 
 
-<seeds.png, id=67, 411.5375pt x 371.3875pt>
+<seeds.png, id=71, 411.5375pt x 371.3875pt>
 File: seeds.png Graphic file (type png)
  <use seeds.png>
 Package pdftex.def Info: seeds.png used on input line 125.
@@ -1166,20 +1166,21 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./seeds
 .png>])
-(./teaching.tex) (./teaching_assistant.tex)
-Package biblatex Info: Reference section=1 on input line 155.
+(./teaching.tex) (./teaching_assistant.tex) [2] (./working_groups.tex)
+Package biblatex Info: Reference section=1 on input line 157.
 \openout4 = `Modern_CV1-blx.aux'.
 
-Package biblatex Info: Setting label 'refsection:1' on input line 155.
- [2] [3]
-Package biblatex Info: Reference section=0 on input line 158.
-Package biblatex Info: Reference section=2 on input line 161.
+Package biblatex Info: Setting label 'refsection:1' on input line 157.
+ [3]
+Package biblatex Info: Reference section=0 on input line 160.
+Package biblatex Info: Reference section=2 on input line 163.
 \openout4 = `Modern_CV2-blx.aux'.
 
-Package biblatex Info: Setting label 'refsection:2' on input line 161.
-Package biblatex Info: Reference section=0 on input line 164.
+Package biblatex Info: Setting label 'refsection:2' on input line 163.
 
-(./talks_and_presentations.tex [4]) (./R_packages.tex
+[4]
+Package biblatex Info: Reference section=0 on input line 166.
+ (./talks_and_presentations.tex) (./R_packages.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
@@ -1199,31 +1200,31 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
 
-Underfull \hbox (badness 4353) in paragraph at lines 198--198
+Underfull \hbox (badness 4353) in paragraph at lines 200--200
 []\T1/lmr/m/n/10 (+20) T[]X, []L[]T[]X[], B\T1/lmr/m/sc/10 (+20) ib\T1/lmr/m/n/
 10 (+20) T[]X, TeXShop,
  []
 
-(./hackathons.tex) (./academic_service.tex [6]) [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 309.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 309.
+[6] (./hackathons.tex) (./academic_service.tex) [7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 311.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 311.
  (./Modern_CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 309.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 309.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 311.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 311.
 Package rerunfilecheck Info: File `Modern_CV.out' has not changed.
-(rerunfilecheck)             Checksum: EEEA602074DEE37768AC2782CD19CE7D;1934.
+(rerunfilecheck)             Checksum: C007B8528CFBEE8B7AB9652225DA062B;2054.
 Package logreq Info: Writing requests to 'Modern_CV.run.xml'.
 \openout1 = `Modern_CV.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31321 strings out of 493109
- 575406 string characters out of 6135005
+ 31326 strings out of 493109
+ 575482 string characters out of 6135005
  738314 words of memory out of 5000000
- 34195 multiletter control sequences out of 15000+600000
+ 34196 multiletter control sequences out of 15000+600000
  74830 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,13n,58p,10380b,1102s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,13n,58p,10380b,1098s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
 texlive/2014/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/20
 14/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2014/texmf-
@@ -1235,10 +1236,10 @@ ocal/texlive/2014/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2014/te
 xmf-dist/fonts/type1/public/lm/lmtto10.pfb></usr/local/texlive/2014/texmf-dist/
 fonts/type1/public/marvosym/marvosym.pfb>
-Output written on Modern_CV.pdf (7 pages, 386762 bytes).
+Output written on Modern_CV.pdf (7 pages, 388081 bytes).
 PDF statistics:
- 241 PDF objects out of 1000 (max. 8388607)
- 217 compressed objects within 3 object streams
- 47 named destinations out of 1000 (max. 500000)
- 26250 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 245 PDF objects out of 1000 (max. 8388607)
+ 221 compressed objects within 3 object streams
+ 48 named destinations out of 1000 (max. 500000)
+ 26258 words of extra memory for PDF output out of 29859 (max. 10000000)
 

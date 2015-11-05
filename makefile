@@ -5,6 +5,7 @@ ${fname}.pdf: ${fname}.tex education.tex \
 	teaching.tex \
 	academic_service.tex \
 	teaching_assistant.tex \
+	working_groups.tex \
 	hackathons.tex \
 	talks_and_presentations.tex \
 	research_interests.tex \
