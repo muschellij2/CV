@@ -37,4 +37,4 @@ clean:
 open:
 	open ${fname}.pdf
 edit:
-	open ${fname}.tex	
+	open ${fname}.tex
