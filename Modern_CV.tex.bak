@@ -72,7 +72,7 @@ backend = bibtex
 %\fax{fax (optional)}                          % optional, remove the line if not wanted
 \email{muschellij2@gmail.com}                      % optional, remove the line if not wanted
 %\homepage{}                % optional, remove the line if not wanted
-\extrainfo{\href{http://biostat.jhsph.edu/~jmuschel/}{http://biostat.jhsph.edu/~jmuschel/}\\
+\extrainfo{\href{http://biostat.jhsph.edu/~jmuschel/}{http://biostat.jhsph.edu/\textasciitilde~jmuschel/}\\
 Blog: \href{https://hopstat.wordpress.com/}{A HopStat and Jump Away} \\ % optional, remove the line if not wanted
 Twitter: \href{https://twitter.com/StrictlyStat}{@StrictlyStat} } % optional, remove the line if not wanted
 %\photo[64pt]{seeds.png}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
@@ -149,6 +149,8 @@ Twitter: \href{https://twitter.com/StrictlyStat}{@StrictlyStat} } % optional, re
 \cvitem{}{All teaching assistantships were in the Department of Biostatistics at the Johns Hopkins Bloomberg of Public Health.}
 \input{teaching_assistant}
 
+\section{Working Groups}
+\input{working_groups}
 
 
 
@@ -163,10 +165,10 @@ Twitter: \href{https://twitter.com/StrictlyStat}{@StrictlyStat} } % optional, re
 \printbibliography[title={Submitted}]
 \end{refsection}
 
-\begin{refsection}[preparation.bib]
-\nocite{*}
-\printbibliography[title={In Preparation}]
-\end{refsection}
+%\begin{refsection}[preparation.bib]
+%\nocite{*}
+%\printbibliography[title={In Preparation}]
+%\end{refsection}
 
 
 
