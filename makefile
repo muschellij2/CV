@@ -31,6 +31,7 @@ ${fname}.pdf: ${fname}.tex education.tex \
 	pdflatex ${fname}
 	pdflatex ${fname}
 	cp ${fname}.pdf Current_CV.pdf
+	cp Current_CV.pdf ~/Dropbox/PhD_Thesis/
 	open ${fname}.pdf
 clean:
 	rm ${fname}.pdf
