@@ -33,6 +33,37 @@ ${fname}.pdf: ${fname}.tex education.tex \
 	cp ${fname}.pdf Current_CV.pdf
 	cp Current_CV.pdf ~/Dropbox/PhD_Thesis/
 	open ${fname}.pdf
+
+resume_fname=Modern_Resume
+resume: ${resume_fname}.tex \
+	education.tex \
+	R_packages.Rnw \
+	professional.tex \
+	working_groups.tex \
+	talks_and_presentations.tex \
+	shinyapps.tex \
+	convert_bibtex.R \
+	submitted.bib \
+	preparation.bib \
+	citations.bib
+	if [ -e ${resume_fname}.aux ]; \
+	then \
+	rm ${resume_fname}.aux; \
+	fi;
+	Rscript -e "library(knitr); knit('R_packages.Rnw')"
+	Rscript convert_bibtex.R
+	pdflatex ${resume_fname}
+	bibtex ${resume_fname}
+	bibtex ${resume_fname}1-blx
+	bibtex ${resume_fname}2-blx
+	if [ -e ${resume_fname}3-blx.bbl ]; \
+	then \
+		bibtex ${resume_fname}3-blx; \
+	fi;	
+	pdflatex ${resume_fname}
+	pdflatex ${resume_fname}
+	cp ${resume_fname}.pdf Current_Resume.pdf
+	open ${resume_fname}.pdf	
 clean:
 	rm ${fname}.pdf
 open:

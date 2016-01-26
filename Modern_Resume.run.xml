@@ -46,11 +46,13 @@
     <provides type="dynamic">
       <file>Modern_Resume.aux</file>
       <file>Modern_Resume1-blx.aux</file>
+      <file>Modern_Resume2-blx.aux</file>
       <file>Modern_Resume-blx.bib</file>
     </provides>
     <requires type="dynamic">
       <file>Modern_Resume.bbl</file>
       <file>Modern_Resume1-blx.bbl</file>
+      <file>Modern_Resume2-blx.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-compat.def</file>
@@ -111,6 +113,33 @@
     </requires>
     <requires type="editable">
       <file>citations.bib</file>
+    </requires>
+    <requires type="static">
+      <file>biblatex.bst</file>
+    </requires>
+  </external>
+  <external package="biblatex" priority="5" active="0">
+    <generic>bibtex</generic>
+    <cmdline>
+      <binary>bibtex</binary>
+      <option>-min-crossrefs 2</option>
+      <infile>Modern_Resume2-blx</infile>
+    </cmdline>
+    <input>
+      <file>Modern_Resume2-blx.aux</file>
+    </input>
+    <output>
+      <file>Modern_Resume2-blx.bbl</file>
+    </output>
+    <provides type="dynamic">
+      <file>Modern_Resume2-blx.bbl</file>
+    </provides>
+    <requires type="dynamic">
+      <file>Modern_Resume2-blx.aux</file>
+      <file>Modern_Resume-blx.bib</file>
+    </requires>
+    <requires type="editable">
+      <file>submitted.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>
