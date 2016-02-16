@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.4)  26 JAN 2016 11:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.4)  16 FEB 2016 14:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1172,13 +1172,12 @@ Package biblatex Info: Reference section=1 on input line 160.
 
 Package biblatex Info: Setting label 'refsection:1' on input line 160.
  [3]
+[4]
 Package biblatex Info: Reference section=0 on input line 163.
 Package biblatex Info: Reference section=2 on input line 166.
 \openout4 = `Modern_CV2-blx.aux'.
 
 Package biblatex Info: Setting label 'refsection:2' on input line 166.
-
-[4]
 Package biblatex Info: Reference section=0 on input line 169.
  (./talks_and_presentations.tex) (./R_packages.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
@@ -1218,13 +1217,13 @@ Package logreq Info: Writing requests to 'Modern_CV.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31326 strings out of 493109
- 575482 string characters out of 6135005
+ 31328 strings out of 493109
+ 575512 string characters out of 6135005
  738392 words of memory out of 5000000
  34196 multiletter control sequences out of 15000+600000
- 74830 words of font info for 103 fonts, out of 8000000 for 9000
+ 74913 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,13n,58p,10380b,1098s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,13n,58p,10380b,1096s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
 texlive/2014/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/20
 14/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2014/texmf-
@@ -1236,7 +1235,7 @@ ocal/texlive/2014/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2014/te
 xmf-dist/fonts/type1/public/lm/lmtto10.pfb></usr/local/texlive/2014/texmf-dist/
 fonts/type1/public/marvosym/marvosym.pfb>
-Output written on Modern_CV.pdf (7 pages, 388265 bytes).
+Output written on Modern_CV.pdf (7 pages, 388406 bytes).
 PDF statistics:
  247 PDF objects out of 1000 (max. 8388607)
  223 compressed objects within 3 object streams

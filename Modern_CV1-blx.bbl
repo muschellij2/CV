@@ -16,6 +16,149 @@
   {}
 \endgroup
 
+\entry{bundy2016peds}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Bundy}{B.}%
+     {David~Gordon}{D.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Clemens}{C.}%
+     {Gwendolyn}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Strouse}{S.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thompson}{T.}%
+     {Richard}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Casella}{C.}%
+     {James}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Miller}{M.}%
+     {Marlene}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BDG+2}
+  \strng{fullhash}{BDGMJCGSJTRCJMM1}
+  \field{labelyear}{2016}
+  \field{pages}{In Press}
+  \field{title}{Preventive Care Delivery to Young Children with Sickle Cell
+  Disease}
+  \field{journaltitle}{Journal of Pediatric Hematology and Oncology}
+  \field{year}{2016}
+\endentry
+
+\entry{fortin2016ravel}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Fortin}{F.}%
+     {Jean-Philippe}{J.-P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sweeney}{S.}%
+     {Elizabeth~M.}{E.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Crainiceanu}{C.}%
+     {Ciprian~M.}{C.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shinohara}{S.}%
+     {Russell~T.}{R.~T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FJP+1}
+  \strng{fullhash}{FJPSEMMJCCMSRT1}
+  \field{labelyear}{2016}
+  \field{pages}{In Press}
+  \field{title}{Removing inter-subject technical variability in magnetic
+  resonance imaging studies}
+  \field{journaltitle}{NeuroImage}
+  \field{year}{2016}
+\endentry
+
+\entry{sweeney2016relating}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Sweeney}{S.}%
+     {Elizabeth~M}{E.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shinohara}{S.}%
+     {Russell~T}{R.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dewey}{D.}%
+     {Blake~E}{B.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schindler}{S.}%
+     {Matthew~K}{M.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muschelli}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Reich}{R.}%
+     {Daniel~S}{D.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Crainiceanu}{C.}%
+     {Ciprian~M}{C.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Eloyan}{E.}%
+     {Ani}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{SEM+1}
+  \strng{fullhash}{SEMSRTDBESMKMJRDSCCMEA1}
+  \field{labelyear}{2016}
+  \field{pages}{1\bibrangedash 17}
+  \field{title}{Relating multi-sequence longitudinal intensity profiles and
+  clinical covariates in incident multiple sclerosis lesions}
+  \field{volume}{10}
+  \field{journaltitle}{NeuroImage: Clinical}
+  \field{year}{2016}
+\endentry
+
 \entry{muschelli2015validated}{article}{}
   \name{author}{6}{}{%
     {{}%
@@ -151,8 +294,10 @@
   \strng{fullhash}{MJUNLSEMEAMNVPHDFCCM1}
   \field{labelyear}{2015}
   \field{extrayear}{2}
-  \field{pages}{In Press}
+  \field{number}{11}
+  \field{pages}{3270\bibrangedash 3273}
   \field{title}{Quantitative Intracerebral Hemorrhage Localization}
+  \field{volume}{46}
   \field{journaltitle}{Stroke}
   \field{year}{2015}
 \endentry
@@ -161,17 +306,17 @@
   \name{author}{9}{}{%
     {{}%
      {Choe}{C.}%
-     {Ann~S.}{A.~S.}%
+     {Ann~S}{A.~S.}%
      {}{}%
      {}{}}%
     {{}%
      {Jones}{J.}%
-     {Craig~K.}{C.~K.}%
+     {Craig~K}{C.~K.}%
      {}{}%
      {}{}}%
     {{}%
      {Joel}{J.}%
-     {Suresh~E.}{S.~E.}%
+     {Suresh~E}{S.~E.}%
      {}{}%
      {}{}}%
     {{}%
@@ -186,85 +331,37 @@
      {}{}}%
     {{}%
      {Caffo}{C.}%
-     {Brian~S.}{B.~S.}%
+     {Brian~S}{B.~S.}%
      {}{}%
      {}{}}%
     {{}%
      {Lindquist}{L.}%
-     {Martin~A.}{M.~A.}%
+     {Martin~A}{M.~A.}%
      {}{}%
      {}{}}%
     {{}%
      {Zijl}{Z.}%
-     {Peter~C.M.}{P.~C.}%
+     {Peter~CM}{P.~C.}%
      {van}{v.}%
      {}{}}%
     {{}%
      {Pekar}{P.}%
-     {James~J.}{J.~J.}%
+     {James~J}{J.~J.}%
      {}{}%
      {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Public Library of Science}%
   }
   \strng{namehash}{CAS+1}
   \strng{fullhash}{CASJCKJSEMJBVCBSLMAZPCvPJJ1}
   \field{labelyear}{2015}
-  \field{pages}{In Press}
+  \field{number}{10}
+  \field{pages}{e0140134}
   \field{title}{Reproducibility and temporal structure in weekly resting-state
-  {fMRI} over a period of 3.5 years}
-  \field{journaltitle}{PLOS ONE}
-  \field{year}{2015}
-\endentry
-
-\entry{sweeney2015pcs}{article}{}
-  \name{author}{8}{}{%
-    {{}%
-     {Sweeney}{S.}%
-     {Elizabeth~M.}{E.~M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Shinohara}{S.}%
-     {Russell~T.}{R.~T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Muschelli}{M.}%
-     {John}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Dewey}{D.}%
-     {Blake~E.}{B.~E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Reich}{R.}%
-     {Daniel~S.}{D.~S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Crainiceanu}{C.}%
-     {Ciprian~M.}{C.~M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Schindler}{S.}%
-     {Matthew~K.}{M.~K.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Eloyan}{E.}%
-     {Ani}{A.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{SEM+1}
-  \strng{fullhash}{SEMSRTMJDBERDSCCMSMKEA1}
-  \field{labelyear}{2015}
-  \field{pages}{In Press}
-  \field{title}{Relating multi-sequence longitudinal intensity profiles and
-  clinical covariates in incident multiple sclerosis lesions}
-  \field{journaltitle}{NeuroImage: Clinical}
+  fMRI over a period of 3.5 years}
+  \field{volume}{10}
+  \field{journaltitle}{PloS one}
   \field{year}{2015}
 \endentry
 
