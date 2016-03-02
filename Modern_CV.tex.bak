@@ -43,7 +43,7 @@ backend = bibtex
 \newcommand*{\bibyear}{}
 \renewbibmacro{in:}{}
 
-
+% from http://tex.stackexchange.com/questions/123805/creating-bibliographies-with-biblatex-and-moderncv
 \defbibenvironment{bibliography}
   {\list
      {\iffieldequals{year}{\bibyear}
@@ -158,7 +158,7 @@ Skype: muschellij2
 
 
 \begin{refsection}[citations.bib]
-\nocite{}
+\nocite{*}
 \printbibliography[title={Peer-Reviewed Publications}]
 \end{refsection}
 

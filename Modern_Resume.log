@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.4)  26 JAN 2016 11:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.4)  29 FEB 2016 15:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1203,11 +1203,11 @@ Package logreq Info: Writing requests to 'Modern_Resume.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31265 strings out of 493109
- 574803 string characters out of 6135005
+ 31267 strings out of 493109
+ 574833 string characters out of 6135005
  737433 words of memory out of 5000000
  34183 multiletter control sequences out of 15000+600000
- 73910 words of font info for 92 fonts, out of 8000000 for 9000
+ 73993 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,11n,58p,10384b,1102s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
@@ -1218,7 +1218,7 @@ pe1/public/lm/lmr17.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/
 lm/lmri10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmro10.
 pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmtto10.pfb></usr
 /local/texlive/2014/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on Modern_Resume.pdf (5 pages, 226735 bytes).
+Output written on Modern_Resume.pdf (5 pages, 226818 bytes).
 PDF statistics:
  181 PDF objects out of 1000 (max. 8388607)
  164 compressed objects within 2 object streams

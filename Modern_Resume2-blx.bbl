@@ -16,44 +16,6 @@
   {}
 \endgroup
 
-\entry{fortin2015ravel}{article}{}
-  \name{author}{5}{}{%
-    {{}%
-     {Fortin}{F.}%
-     {Jean-Philippe}{J.-P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Sweeney}{S.}%
-     {Elizabeth~M.}{E.~M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Muschelli}{M.}%
-     {John}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Crainiceanu}{C.}%
-     {Ciprian~M.}{C.~M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Shinohara}{S.}%
-     {Russell~T.}{R.~T.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{FJP+1}
-  \strng{fullhash}{FJPSEMMJCCMSRT1}
-  \field{labelyear}{2015}
-  \field{pages}{Submitted}
-  \field{title}{Removing inter-subject technical variability in magnetic
-  resonance imaging studies}
-  \field{journaltitle}{NeuroImage}
-  \field{year}{2015}
-\endentry
-
 \entry{kickingereder2015gbl}{article}{}
   \name{author}{12}{}{%
     {{}%
@@ -125,54 +87,6 @@
   imaging signature for predicting and stratifying antiangiogenic treatment
   response}
   \field{journaltitle}{Journal of Clinical Oncology}
-  \field{year}{2015}
-\endentry
-
-\entry{bundy2015peds}{article}{}
-  \name{author}{7}{}{%
-    {{}%
-     {Bundy}{B.}%
-     {David~Gordon}{D.~G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Muschelli}{M.}%
-     {John}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Clemens}{C.}%
-     {Gwendolyn}{G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Strouse}{S.}%
-     {John}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Thompson}{T.}%
-     {Richard}{R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Casella}{C.}%
-     {James}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Miller}{M.}%
-     {Marlene}{M.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{BDG+1}
-  \strng{fullhash}{BDGMJCGSJTRCJMM1}
-  \field{labelyear}{2015}
-  \field{pages}{In Press}
-  \field{title}{Preventive Care Delivery to Young Children with Sickle Cell
-  Disease}
-  \field{journaltitle}{Journal of Pediatric Hematology and Oncology}
   \field{year}{2015}
 \endentry
 
