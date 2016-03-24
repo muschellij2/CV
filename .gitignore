@@ -9,6 +9,10 @@ Cover_Letter/*
 *.bak
 *.run.xml
 
+# BibTeX stuff
+*.bbl
+*.blg
+
 # Dropbox stuff
 .dropbox
 .dropbox/*
