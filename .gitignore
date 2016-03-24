@@ -1,0 +1,18 @@
+Cover_Letter_industry/*
+Cover_Letter/*
+
+# LaTeX stuff
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.bak
+*.run.xml
+
+# Dropbox stuff
+.dropbox
+.dropbox/*
+
+.Rhistory
+
+Old/*
