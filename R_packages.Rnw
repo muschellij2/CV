@@ -1,7 +1,7 @@
 
 
 <<echo = FALSE, results = "hide", message=FALSE, error=FALSE, warning=FALSE>>=
-if (!require(cranlogs)){
+if (!require(cranlogs)) {
 library(devtools)
 install_github("metacran/cranlogs")
 }
@@ -11,31 +11,99 @@ today = Sys.Date()
 long_today = format(Sys.time(), "%B %d, %Y")
 packs = c("fslr", "WhiteStripe", "brainR",
           "matlabr","spm12r", "rscopus",
-          "diffr")
+          "diffr", "neurobase", "freesurfer",
+          "papayar", "oasis")
+packs = unique(packs)
 dl = cran_downloads( from = first_date, to = today,
 	packages = packs)
 dl = ddply(dl, .(package), summarise, count = sum(count))
+desc <- sapply(packs, function(x) {
+	read.dcf(file = system.file("DESCRIPTION", package = x),
+                   fields = c("Package", "Title"))
+})
+desc = t(desc)
+colnames(desc) = c("package", "title")
+desc = as.data.frame(desc, stringsAsFactors = FALSE)
+dl = merge(dl, desc, by = "package", sort = FALSE)
+dl = dl[ order(dl$count, decreasing = TRUE), ]
 cn = dl$package
+tit = dl$title
 dl = dl$count
+names(tit) = cn
 names(dl) = cn
+url_maker = function(package) {
+  paste0("http://cran.r-project.org/web/packages/", package, "/index.html")
+}
+cv_entry = function(package) {
+  #########################
+  # Making it so they aren't so long
+  #########################
+  title = tit[package]
+  title = gsub("\n", " ", title)
+  title = gsub("' ", " ", title)
+  title = gsub(" '", " ", title)
+  title = gsub("^'", "", title)
+  title = gsub("'$", "", title)
+  title = gsub("\\('", "(", title)
+  title = gsub("'\\)", ")", title)
+
+  title = gsub("\\s\\s+", " ", title)
+  title = trimws(title)
+  nc = 60 # max number of characters in one line
+  ss = strsplit(title, " ")[[1]]
+  ss = c(package, ss)
+  num_chars = sapply(ss, nchar)
+  cs = cumsum(num_chars)
+  n_line = floor(cs / nc)
+  tab = table(n_line)
+  # no single lines with one word #taki
+  one_liner = tab == 1
+  if (any(one_liner)) {
+    line = as.numeric(names(tab))[one_liner]
+    ind = which(n_line == line)
+    n_line[ind - 1] = n_line[ind]
+  }
+  # take out package name (will be done with href below)
+  ss = ss[-1]
+  n_line = n_line[-1]
+  # put it back together
+  title = paste(
+    tapply(ss, INDEX = n_line, paste, collapse = " "),
+    collapse = " \\newline "
+    )
+
+  paste0("\\cventry{}{\\href{", url_maker(package), 
+         "}{", package, "}: ", title, 
+         "}{\\newline Downloads: ",
+         dl[package], "}{}{}{}\n")
+}
 @
 
 All download counts are from RStudio CRAN logs and are accurate as of \Sexpr{long_today}.
 \newline
 
-\cventry{CRAN}{\href{http://cran.r-project.org/web/packages/fslr/index.html}{fslr}: Wrapper functions for FSL (FMRIB Software Library) from \newline Functional MRI of the Brain (FMRIB)}{\newline Downloads: \Sexpr{dl['fslr']}}{}{}{}
-
-\cventry{}{\href{http://cran.r-project.org/web/packages/WhiteStripe/index.html}{WhiteStripe}: Whitestripe White Matter Normalization for \newline Magnetic Resonance Images}{\newline Downloads: \Sexpr{dl['WhiteStripe']}}{}{}{}
-
-\cventry{}{\href{http://cran.r-project.org/web/packages/brainR/index.html}{brainR}: Helper functions to misc3d and rgl packages for brain imaging}{\newline Downloads: \Sexpr{dl['brainR']}}{}{}{}
-
-\cventry{}{\href{http://cran.r-project.org/web/packages/matlabr/index.html}{matlabr}: R interface with calling MATLAB code without a server}{\newline Downloads: \Sexpr{dl['matlabr']}}{}{}{}
-
-\cventry{}{\href{http://cran.r-project.org/web/packages/spm12r/index.html}{spm12r}: Wrapper Functions for SPM (Statistical Parametric Mapping) Version 12 from the Wellcome Trust Centre for Neuroimaging}{\newline Downloads: \Sexpr{dl['spm12r']}}{}{}{}
-
-\cventry{}{\href{http://cran.r-project.org/web/packages/rscopus/index.html}{rscopus}: Scopus Database API Interface}{\newline Downloads: \Sexpr{dl['rscopus']}}{}{}{}
-
-\cventry{}{\href{http://cran.r-project.org/web/packages/diffr/index.html}{diffr}: Display Differences Between Two Files using the\newline Codediff JavaScript Library}{\newline Downloads: \Sexpr{dl['diffr']}}{}{}{}
+<<echo = FALSE, results = "asis", message=FALSE, error=FALSE, warning=FALSE>>=
+for (icn in cn) {
+  cat(cv_entry(icn))
+}
+@
+% \cventry{CRAN}{\href{http://cran.r-project.org/web/packages/fslr/index.html}{fslr}: Wrapper functions for FSL (FMRIB Software Library) from \newline Functional MRI of the Brain (FMRIB)}{\newline Downloads: \Sexpr{dl['fslr']}}{}{}{}
+% 
+% \cventry{}{\href{http://cran.r-project.org/web/packages/WhiteStripe/index.html}{WhiteStripe}: Whitestripe White Matter Normalization for \newline Magnetic Resonance Images}{\newline Downloads: \Sexpr{dl['WhiteStripe']}}{}{}{}
+% 
+% \cventry{}{\href{http://cran.r-project.org/web/packages/brainR/index.html}{brainR}: Helper functions to misc3d and rgl packages for brain imaging}{\newline Downloads: \Sexpr{dl['brainR']}}{}{}{}
+% 
+% \cventry{}{\href{http://cran.r-project.org/web/packages/matlabr/index.html}{matlabr}: R interface with calling MATLAB code without a server}{\newline Downloads: \Sexpr{dl['matlabr']}}{}{}{}
+% 
+% \cventry{}{\href{http://cran.r-project.org/web/packages/spm12r/index.html}{spm12r}: Wrapper Functions for SPM (Statistical Parametric Mapping) Version 12 from the Wellcome Trust Centre for Neuroimaging}{\newline Downloads: \Sexpr{dl['spm12r']}}{}{}{}
+% 
+% \cventry{}{\href{http://cran.r-project.org/web/packages/rscopus/index.html}{rscopus}: Scopus Database API Interface}{\newline Downloads: \Sexpr{dl['rscopus']}}{}{}{}
+% 
+% \cventry{}{\href{http://cran.r-project.org/web/packages/diffr/index.html}{diffr}: Display Differences Between Two Files using the\newline Codediff JavaScript Library}{\newline Downloads: \Sexpr{dl['diffr']}}{}{}{}
+% 
+% \Sexpr{cv_entry("neurobase")}
+% 
+% \Sexpr{cv_entry("oasis")}
 
 \cventry{GitHub}{\href{https://github.com/muschellij2/drammsr}{drammsr}: Port of Deformable Registration via Attribute Matching and Mutual-Saliency Weighting (\href{http://www.cbica.upenn.edu/sbia/software/dramms/}{DRAMMS}) Registration to R}{}{}{}{}
 
@@ -43,7 +111,11 @@ All download counts are from RStudio CRAN logs and are accurate as of \Sexpr{lon
 
 \cventry{}{\href{https://github.com/muschellij2/dcmniir}{dcm2niir}: R wrapper for dcm2nii DICOM converter}{}{}{}{}
 
+\cventry{}{\href{https://github.com/muschellij2/
+ichseg}{ichseg}: ICH Segmentation of CT scans}{}{}{}{}
 
+\cventry{}{\href{https://github.com/muschellij2/
+msseg}{msseg}: MS Lesion Segmentation}{}{}{}{}
 
 \cventry{}{\href{https://github.com/muschellij2/googleCite}{googleCite}: Scraper for Google Citations}{}{}{}{}
 
