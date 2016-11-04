@@ -109,6 +109,10 @@ for (icn in cn) {
 
 \cventry{}{\href{https://github.com/muschellij2/extrantsr}{extrantsr}: Additional functionality and extensions to the \newline ANTsR R package}{}{}{}{}
 
+\cventry{}{\href{https://github.com/muschellij2/hcp}{hcp}: Human Connectome Project Interface with R}{}{}{}{}
+
+\cventry{}{\href{https://github.com/muschellij2/rcamino}{rcamino}: R Port of Camino Software}{}{}{}{}
+
 \cventry{}{\href{https://github.com/muschellij2/dcmniir}{dcm2niir}: R wrapper for dcm2nii DICOM converter}{}{}{}{}
 
 \cventry{}{\href{https://github.com/muschellij2/
