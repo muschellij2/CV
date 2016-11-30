@@ -1,4 +1,5 @@
 fname=Modern_CV
+compiler=xelatex
 ${fname}.pdf: ${fname}.tex education.tex \
 	R_packages.Rnw \
 	professional.tex \
@@ -20,7 +21,7 @@ ${fname}.pdf: ${fname}.tex education.tex \
 	fi;
 	Rscript -e "library(knitr); knit('R_packages.Rnw')"
 	Rscript convert_bibtex.R
-	pdflatex ${fname}
+	${compiler} ${fname}
 	bibtex ${fname}
 	bibtex ${fname}1-blx
 	bibtex ${fname}2-blx
@@ -28,8 +29,8 @@ ${fname}.pdf: ${fname}.tex education.tex \
 	then \
 		bibtex ${fname}3-blx; \
 	fi;	
-	pdflatex ${fname}
-	pdflatex ${fname}
+	${compiler} ${fname}
+	${compiler} ${fname}
 	cp ${fname}.pdf Current_CV.pdf
 	cp Current_CV.pdf ~/Dropbox/PhD_Thesis/
 	open ${fname}.pdf
@@ -52,7 +53,7 @@ resume: ${resume_fname}.tex \
 	fi;
 	Rscript -e "library(knitr); knit('R_packages.Rnw')"
 	Rscript convert_bibtex.R
-	pdflatex ${resume_fname}
+	${compiler} ${resume_fname}
 	bibtex ${resume_fname}
 	bibtex ${resume_fname}1-blx
 	bibtex ${resume_fname}2-blx
@@ -60,8 +61,8 @@ resume: ${resume_fname}.tex \
 	then \
 		bibtex ${resume_fname}3-blx; \
 	fi;	
-	pdflatex ${resume_fname}
-	pdflatex ${resume_fname}
+	${compiler} ${resume_fname}
+	${compiler} ${resume_fname}
 	cp ${resume_fname}.pdf Current_Resume.pdf
 	open ${resume_fname}.pdf	
 clean:
