@@ -113,20 +113,36 @@ GitHub: \href{https://github.com/muschellij2}{muschellij2} \\
 \addbibresource{citations.bib}
 \AtEveryBibitem{\clearfield{organization}}    % clears notes
 
-\newcommand{\makeauthorbold}[1]{%
+\usepackage{xstring}
+\newcommand{\makeauthorsbold}[1]{%
 \DeclareNameFormat{author}{%
-  \edef\tempname{{#1}}%
   \ifnumequal{\value{listcount}}{1}
     {\ifnumequal{\value{liststop}}{1}
-      {\expandafter\ifstrequal\tempname{##1}{\textbf{##1\addcomma\addspace ##4\addcomma\isdot}}{##1\addcomma\addspace ##4\addcomma\isdot}}
-      {\expandafter\ifstrequal\tempname{##1}{\textbf{##1\addcomma\addspace ##4\addcomma\isdot}}{##1\addcomma\addspace ##4\addcomma\isdot}}}
+      {\expandafter\IfSubStr{#1}{##1}{\textbf{##1\addcomma\addspace ##4\addcomma\isdot}}{##1\addcomma\addspace ##4\addcomma\isdot}}
+      {\expandafter\IfSubStr{#1}{##1}{\textbf{##1\addcomma\addspace ##4}}{##1\addcomma\addspace ##4}}}
     {\ifnumless{\value{listcount}}{\value{liststop}}
-      {\expandafter\ifstrequal\tempname{##1}{\textbf{\addcomma\addspace ##1\addcomma\addspace ##4\addcomma\isdot}}{\addcomma\addspace ##1\addcomma\addspace ##4\addcomma\isdot}}
-      {\expandafter\ifstrequal\tempname{##1}{\textbf{\addcomma\addspace ##1\addcomma\addspace ##4\addcomma\isdot}}{\addcomma\addspace ##1\addcomma\addspace ##4\addcomma\isdot}}%
+      {\expandafter\IfSubStr{#1}{##1}{\textbf{\addcomma\addspace ##1\addcomma\addspace ##4}}{\addcomma\addspace ##1\addcomma\addspace ##4}}
+          {\expandafter\IfSubStr{#1}{##1}{\textbf{\addcomma\addspace ##1\addcomma\addspace ##4\addcomma\isdot}}{\addcomma\addspace ##1\addcomma\addspace ##4\addcomma\isdot}}%
     }%
 }%
 }
-\makeauthorbold{Muschelli}
+\makeauthorsbold{Muschelli,Muschelli*}
+
+%\newcommand{\makeauthorbold}[1]{%
+%\DeclareNameFormat{author}{%
+%  \edef\tempname{{#1}}%
+%  \ifnumequal{\value{listcount}}{1}
+%    {\ifnumequal{\value{liststop}}{1}
+%      {\expandafter\ifstrequal\tempname{##1}{\textbf{##1\addcomma\addspace ##4\addcomma\isdot}}{##1\addcomma\addspace ##4\addcomma\isdot}}
+%      {\expandafter\ifstrequal\tempname{##1}{\textbf{##1\addcomma\addspace ##4\addcomma\isdot}}{##1\addcomma\addspace ##4\addcomma\isdot}}}
+%    {\ifnumless{\value{listcount}}{\value{liststop}}
+%      {\expandafter\ifstrequal\tempname{##1}{\textbf{\addcomma\addspace ##1\addcomma\addspace ##4\addcomma\isdot}}{\addcomma\addspace ##1\addcomma\addspace ##4\addcomma\isdot}}
+%      {\expandafter\ifstrequal\tempname{##1}{\textbf{\addcomma\addspace ##1\addcomma\addspace ##4\addcomma\isdot}}{\addcomma\addspace ##1\addcomma\addspace ##4\addcomma\isdot}}%
+%    }%
+%}%
+%}
+%\makeauthorbold{Muschelli}
+
 
 \begin{document} 
 \defbibnote{sharedauth}{* denotes authors contributed equally}
