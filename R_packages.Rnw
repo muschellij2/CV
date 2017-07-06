@@ -12,7 +12,8 @@ long_today = format(Sys.time(), "%B %d, %Y")
 packs = c("fslr", "WhiteStripe", "brainR",
           "matlabr","spm12r", "rscopus",
           "diffr", "neurobase", "freesurfer",
-          "papayar", "oasis")
+          "papayar", "oasis", "neurohcp", "kirby21.base",
+           "kirby21.fmri",  "kirby21.t1")
 packs = unique(packs)
 dl = cran_downloads( from = first_date, to = today,
 	packages = packs)
@@ -72,8 +73,8 @@ cv_entry = function(package) {
     collapse = " \\newline "
     )
 
-  paste0("\\cventry{}{\\href{", url_maker(package), 
-         "}{", package, "}: ", title, 
+  paste0("\\cventry{}{\\href{", url_maker(package),
+         "}{", package, "}: ", title,
          "}{\\newline Downloads: ",
          dl[package], "}{}{}{}\n")
 }
@@ -88,28 +89,28 @@ for (icn in cn) {
 }
 @
 % \cventry{CRAN}{\href{http://cran.r-project.org/web/packages/fslr/index.html}{fslr}: Wrapper functions for FSL (FMRIB Software Library) from \newline Functional MRI of the Brain (FMRIB)}{\newline Downloads: \Sexpr{dl['fslr']}}{}{}{}
-% 
+%
 % \cventry{}{\href{http://cran.r-project.org/web/packages/WhiteStripe/index.html}{WhiteStripe}: Whitestripe White Matter Normalization for \newline Magnetic Resonance Images}{\newline Downloads: \Sexpr{dl['WhiteStripe']}}{}{}{}
-% 
+%
 % \cventry{}{\href{http://cran.r-project.org/web/packages/brainR/index.html}{brainR}: Helper functions to misc3d and rgl packages for brain imaging}{\newline Downloads: \Sexpr{dl['brainR']}}{}{}{}
-% 
+%
 % \cventry{}{\href{http://cran.r-project.org/web/packages/matlabr/index.html}{matlabr}: R interface with calling MATLAB code without a server}{\newline Downloads: \Sexpr{dl['matlabr']}}{}{}{}
-% 
+%
 % \cventry{}{\href{http://cran.r-project.org/web/packages/spm12r/index.html}{spm12r}: Wrapper Functions for SPM (Statistical Parametric Mapping) Version 12 from the Wellcome Trust Centre for Neuroimaging}{\newline Downloads: \Sexpr{dl['spm12r']}}{}{}{}
-% 
+%
 % \cventry{}{\href{http://cran.r-project.org/web/packages/rscopus/index.html}{rscopus}: Scopus Database API Interface}{\newline Downloads: \Sexpr{dl['rscopus']}}{}{}{}
-% 
+%
 % \cventry{}{\href{http://cran.r-project.org/web/packages/diffr/index.html}{diffr}: Display Differences Between Two Files using the\newline Codediff JavaScript Library}{\newline Downloads: \Sexpr{dl['diffr']}}{}{}{}
-% 
+%
 % \Sexpr{cv_entry("neurobase")}
-% 
+%
 % \Sexpr{cv_entry("oasis")}
 
 \cventry{GitHub}{\href{https://github.com/muschellij2/drammsr}{drammsr}: Port of Deformable Registration via Attribute Matching and Mutual-Saliency Weighting (\href{http://www.cbica.upenn.edu/sbia/software/dramms/}{DRAMMS}) Registration to R}{}{}{}{}
 
 \cventry{}{\href{https://github.com/muschellij2/extrantsr}{extrantsr}: Additional functionality and extensions to the \newline ANTsR R package}{}{}{}{}
 
-\cventry{}{\href{https://github.com/muschellij2/hcp}{hcp}: Human Connectome Project Interface with R}{}{}{}{}
+\cventry{}{\href{https://github.com/muschellij2/neurohcp}{neurohcp}: Human Connectome Project Interface with R}{}{}{}{}
 
 \cventry{}{\href{https://github.com/muschellij2/rcamino}{rcamino}: R Port of Camino Software}{}{}{}{}
 

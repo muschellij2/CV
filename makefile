@@ -66,7 +66,9 @@ resume: ${resume_fname}.tex \
 	cp ${resume_fname}.pdf Current_Resume.pdf
 	open ${resume_fname}.pdf	
 clean:
-	rm ${fname}.pdf
+	cp ${fname}.tex TMP.tex
+	rm ${fname}*
+	cp TMP.tex ${fname}.tex
 open:
 	open ${fname}.pdf
 edit:
