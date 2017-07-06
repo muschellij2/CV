@@ -1,0 +1,17 @@
+sudo: required
+dist: trusty
+before_install:
+- sudo apt-get -qq update && sudo apt-get install -y --no-install-recommends texlive-fonts-recommended
+  texlive-latex-extra texlive-fonts-extra dvipng texlive-latex-recommended texlive-bibtex-extra
+  
+script:
+- make
+
+deploy:
+  provider: releases
+  api_key:
+    secure: UP+OvcgHDA0E61P0R74FMBJk8mNKJBuBQ+sBQr3Ji6WIoa5oPGck0YGbmhUjmgDNiEEhO9evN90QQaVS7wkhE5iN3eVGENMM+pQpLTh5pIyH5difNJrbM/BS9ButmnUWTkrBYDnpEByA9kM6xPvsGp3r7Kv5A2+EWFMNlTTRwwPM+3rxF4SNPQtO8XnYL/5Vbc1oP6e4Hnjg3Nsjck3DAUqKi3SuqZxVnO8eXt3NcCKfWFLgwvbsEF4JFsnHU5h0RLBm9/Rwf4+kdYy2D4Nt5c4kXkdmA3G68WB3htEtAWvwgI/mwWO6yrn3BLbWKm2Mv2EcLqugovs2VNb2+8MZe7EYwyol6r6vD0mZHytxKCoqfQJyJfJ9dYmP6ixBvMATVNvn7OYHfVYBJS0lhXV0GoncjkVJOPPtvbKOlBM96lWDpbbWTPRDJhv6hKUOKo9GssnEWfHjVfbGgoCWucmyAEbWr8YeA2Vym7L3rb84YQnuiqCbt80JdRBOGR89KnUOVtAJu/TABYlyzhhU3Mpj2070SAXtIt6622YCXbCyMfnUUCOKrDgovjbQ0G1CT1Xpxms/J4H2VFeaEz21tw2fv81nvAvNnie7tlGRWNyk2yeBx7tO7m3v7s7/10FT19VcvjAopXHCi2ymKLJ5wdh/e0uXhQfRN5bImcaJ0mfCHPI=
+  file_glob: true
+  file: Modern_*.pdf
+  on:
+    repo: muschellij2/CV
