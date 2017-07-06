@@ -1,7 +1,7 @@
 fname=Modern_CV
 compiler=xelatex
-# compiler_flags=-interaction=nonstopmode -halt-on-error
-compiler_flags=
+compiler_flags=-interaction=nonstopmode -halt-on-error
+# compiler_flags=
 ${fname}.pdf: ${fname}.tex education.tex \
 	R_packages.Rnw \
 	professional.tex \
