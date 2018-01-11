@@ -2,25 +2,50 @@
 
 <<echo = FALSE, results = "hide", message=FALSE, error=FALSE, warning=FALSE>>=
 if (!require(cranlogs)) {
-library(devtools)
-install_github("metacran/cranlogs")
+  library(devtools)
+  install_github("metacran/cranlogs")
+  library(cranlogs)
 }
 library(plyr)
 first_date = "2014-01-10"
 today = Sys.Date()
 long_today = format(Sys.time(), "%B %d, %Y")
-packs = c("fslr", "WhiteStripe", "brainR",
-          "matlabr","spm12r", "rscopus",
-          "diffr", "neurobase", "freesurfer",
-          "papayar", "oasis", "neurohcp", "kirby21.base",
-           "kirby21.fmri",  "kirby21.t1")
+# packs = c("brainR", "diffr", "freesurfer", "fslr", 
+#           "kirby21.base", "kirby21.fmri", 
+#           "kirby21.t1", "matlabr", "neurobase", "neurohcp", 
+#           "oasis", "papayar", "rscopus", "spm12r", "WhiteStripe")
+# from crandb
+packs = c("brainR", "cifti", "diffr", "fedreporter", "freesurfer", "fslr", 
+"gcite", "gifti", "glassdoor", "kirby21.base", "kirby21.fmri", 
+"kirby21.t1", "matlabr", "neurobase", "neurohcp", "neurovault", 
+"papayar", "rscopus", "spm12r", "stapler", "WhiteStripe")
+# from muschpack
+gh = c("alvin", "biobankr", 
+       "dcm2niir", "dcmtk", "dhs", "drammsr", 
+       "extrantsr", "ggneuro", "ghtravis", 
+       "gluc", "greedyreg", "ichseg", "itksnapr", 
+       "jhudsl", "kirby21.asl", "kirby21.det2", "kirby21.dti", 
+       "kirby21.flair", "kirby21.mt", "kirby21.smri", "kirby21.survey", 
+       "kirby21.t2", "kirby21.vaso", "leanpubr", "lungct", "malf.templates", 
+       "neuroc.deps", "neurocInstall", "rcamino", 
+       "robex", "smri.process")
+# packs = c(packs, gh)
+packs = sort(unique(packs))
+
 packs = unique(packs)
 dl = cran_downloads( from = first_date, to = today,
 	packages = packs)
 dl = ddply(dl, .(package), summarise, count = sum(count))
 desc <- sapply(packs, function(x) {
-	read.dcf(file = system.file("DESCRIPTION", package = x),
-                   fields = c("Package", "Title"))
+  fname = system.file("DESCRIPTION", package = x)
+  if (fname == "") {
+    print(x)
+    devtools::install_github(paste0("muschellij2/", x))
+    fname = system.file("DESCRIPTION", package = x)
+    # return(NULL)
+  }
+  
+  read.dcf(file = fname, fields = c("Package", "Title"))
 })
 desc = t(desc)
 colnames(desc) = c("package", "title")
