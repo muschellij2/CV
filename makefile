@@ -13,6 +13,7 @@ ${fname}.pdf: ${fname}.tex education.tex \
 	talks_and_presentations.tex \
 	research_interests.tex \
 	shinyapps.tex \
+	reviewer.tex \
 	convert_bibtex.R \
 	submitted.bib \
 	preparation.bib \
