@@ -16,6 +16,7 @@ ${fname}.pdf: ${fname}.tex education.tex \
 	convert_bibtex.R \
 	submitted.bib \
 	preparation.bib \
+	books.bib \
 	citations.bib
 	if [ -e ${fname}.aux ]; \
 	then \
@@ -27,6 +28,7 @@ ${fname}.pdf: ${fname}.tex education.tex \
 	bibtex ${fname}
 	bibtex ${fname}1-blx
 	bibtex ${fname}2-blx
+	bibtex ${fname}3-blx
 	if [ -e ${fname}3-blx.bbl ]; \
 	then \
 		bibtex ${fname}3-blx; \
