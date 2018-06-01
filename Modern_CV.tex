@@ -16,7 +16,7 @@
 
 
 \usepackage[
-style = authoryear, 
+style = authoryear,
 sorting = none, 
 dashed = false,
 maxbibnames = 99,
@@ -158,6 +158,11 @@ GitHub: \href{https://github.com/muschellij2}{muschellij2} \\
 \input{working_groups}
 
 
+\begin{refsection}[books.bib]
+\nocite{*}
+\printbibliography[title={Books}, prenote=sharedauth]
+\end{refsection}
+
 
 \begin{refsection}[citations.bib]
 \nocite{*}
@@ -199,7 +204,7 @@ GitHub: \href{https://github.com/muschellij2}{muschellij2} \\
 
 
 \section{Skills}
-\cvcomputer{\textbf{Languages}}{Proficient: R, bash, Stata, MATLAB. \\
+\cvcomputer{\textbf{Languages}}{Proficient: R (including Shiny), bash, Stata, MATLAB. \\
 Beginner: SAS, Python, \href{http://www.cplusplus.com/}{C++}, \href{http://msdn.microsoft.com/en-us/vbasic/default}{Visual Basic}, JavaScript}{}{}{}{}
 
 \cvcomputer{\textbf{Markup}}{ \TeX{}, \href{http://www.latex-project.org/}{\LaTeX{}}, B\textsc{ib}\TeX{}, TeXShop, WinEdt, knitr, HTML, CSS}{}{}{}{}

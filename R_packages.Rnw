@@ -26,8 +26,8 @@ gh = c("alvin", "biobankr",
        "gluc", "greedyreg", "ichseg", "itksnapr", 
        "jhudsl", "kirby21.asl", "kirby21.det2", "kirby21.dti", 
        "kirby21.flair", "kirby21.mt", "kirby21.smri", "kirby21.survey", 
-       "kirby21.t2", "kirby21.vaso", "leanpubr", "lungct", "malf.templates", 
-       "neuroc.deps", "neurocInstall", "rcamino", 
+       "kirby21.t2", "kirby21.vaso", "leanpubr", "lungct", "malf.templates", "msmri",
+       "neuroc.deps", "neurocInstall", "papayaWidget",  "rcamino", 
        "robex", "smri.process")
 # packs = c(packs, gh)
 packs = sort(unique(packs))
