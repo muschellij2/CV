@@ -10,24 +10,24 @@ library(plyr)
 first_date = "2014-01-10"
 today = Sys.Date()
 long_today = format(Sys.time(), "%B %d, %Y")
-# packs = c("brainR", "diffr", "freesurfer", "fslr", 
-#           "kirby21.base", "kirby21.fmri", 
-#           "kirby21.t1", "matlabr", "neurobase", "neurohcp", 
+# packs = c("brainR", "diffr", "freesurfer", "fslr",
+#           "kirby21.base", "kirby21.fmri",
+#           "kirby21.t1", "matlabr", "neurobase", "neurohcp",
 #           "oasis", "papayar", "rscopus", "spm12r", "WhiteStripe")
 # from crandb
-packs = c("brainR", "cifti", "diffr", "fedreporter", "freesurfer", "fslr", 
-"gcite", "gifti", "glassdoor", "kirby21.base", "kirby21.fmri", 
-"kirby21.t1", "matlabr", "mscstts", "neurobase", "neurohcp", "neurovault", 
+packs = c("brainR", "cifti", "diffr", "fedreporter", "freesurfer", "fslr",
+"gcite", "gifti", "glassdoor", "kirby21.base", "kirby21.fmri",
+"kirby21.t1", "matlabr", "mscstts", "neurobase", "neurohcp", "neurovault",
 "papayar", "rscopus", "spm12r", "stapler", "WhiteStripe")
 # from muschpack
-gh = c("alvin", "biobankr", 
-       "dcm2niir", "dcmtk", "didactr", "flexconnr", "dhs", "drammsr", 
-       "extrantsr", "ggneuro", "ghtravis", 
-       "gluc", "greedyreg", "ichseg", "itksnapr", 
-       "jhudsl", "kirby21.asl", "kirby21.det2", "kirby21.dti", 
-       "kirby21.flair", "kirby21.mt", "kirby21.smri", "kirby21.survey", 
+gh = c("alvin", "biobankr",
+       "dcm2niir", "dcmtk", "didactr", "flexconnr", "dhs", "drammsr",
+       "extrantsr", "ggneuro", "ghtravis",
+       "gluc", "greedyreg", "ichseg", "itksnapr",
+       "jhudsl", "kirby21.asl", "kirby21.det2", "kirby21.dti",
+       "kirby21.flair", "kirby21.mt", "kirby21.smri", "kirby21.survey",
        "kirby21.t2", "kirby21.vaso", "leanpubr", "lungct", "malf.templates", "msmri",
-       "neuroc.deps", "neurocInstall", "papayaWidget",  "rcamino", 
+       "neuroc.deps", "neurocInstall", "papayaWidget",  "rcamino",
        "robex", "smri.process",
        "sri24")
 # packs = c(packs, gh)
@@ -45,7 +45,7 @@ desc <- sapply(packs, function(x) {
     fname = system.file("DESCRIPTION", package = x)
     # return(NULL)
   }
-  
+
   read.dcf(file = fname, fields = c("Package", "Title"))
 })
 desc = t(desc)
@@ -159,4 +159,7 @@ msseg}{msseg}: MS Lesion Segmentation}{}{}{}{}
 \cventry{}{\href{https://github.com/muschellij2/sri24}{sri24}: SRI24 Atlas: Normal Adult Brain Anatomy}{}{}{}{}
 
 \cventry{}{\href{https://github.com/muschellij2/sri24}{sri24}: SRI24 Atlas: Normal Adult Brain Anatomy}{}{}{}{}
+
+
+\cventry{}{\href{https://github.com/muschellij2/leanpubr}{leanpubr}: Leanpub API Interface for R}{}{}{}{}
 

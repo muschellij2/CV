@@ -6,6 +6,7 @@ ${fname}.pdf: ${fname}.tex education.tex \
 	R_packages.Rnw \
 	professional.tex \
 	teaching.tex \
+	advising.tex \
 	academic_service.tex \
 	teaching_assistant.tex \
 	working_groups.tex \
