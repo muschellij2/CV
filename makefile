@@ -29,8 +29,7 @@ ${fname}.pdf: ${fname}.tex education.tex \
 	bibtex ${fname}
 	bibtex ${fname}1-blx
 	bibtex ${fname}2-blx
-	bibtex ${fname}3-blx
-	if [ -e ${fname}3-blx.bbl ]; \
+	if [ -e ${fname}3-blx.bbl || -e ${fname}3-blx.bib ]; \
 	then \
 		bibtex ${fname}3-blx; \
 	fi;	
