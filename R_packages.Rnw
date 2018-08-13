@@ -17,18 +17,19 @@ long_today = format(Sys.time(), "%B %d, %Y")
 # from crandb
 packs = c("brainR", "cifti", "diffr", "fedreporter", "freesurfer", "fslr", 
 "gcite", "gifti", "glassdoor", "kirby21.base", "kirby21.fmri", 
-"kirby21.t1", "matlabr", "neurobase", "neurohcp", "neurovault", 
+"kirby21.t1", "matlabr", "mscstts", "neurobase", "neurohcp", "neurovault", 
 "papayar", "rscopus", "spm12r", "stapler", "WhiteStripe")
 # from muschpack
 gh = c("alvin", "biobankr", 
-       "dcm2niir", "dcmtk", "dhs", "drammsr", 
+       "dcm2niir", "dcmtk", "didactr", "flexconnr", "dhs", "drammsr", 
        "extrantsr", "ggneuro", "ghtravis", 
        "gluc", "greedyreg", "ichseg", "itksnapr", 
        "jhudsl", "kirby21.asl", "kirby21.det2", "kirby21.dti", 
        "kirby21.flair", "kirby21.mt", "kirby21.smri", "kirby21.survey", 
        "kirby21.t2", "kirby21.vaso", "leanpubr", "lungct", "malf.templates", "msmri",
        "neuroc.deps", "neurocInstall", "papayaWidget",  "rcamino", 
-       "robex", "smri.process")
+       "robex", "smri.process",
+       "sri24")
 # packs = c(packs, gh)
 packs = sort(unique(packs))
 
@@ -133,9 +134,12 @@ for (icn in cn) {
 
 \cventry{GitHub}{\href{https://github.com/muschellij2/drammsr}{drammsr}: Port of Deformable Registration via Attribute Matching and Mutual-Saliency Weighting (\href{http://www.cbica.upenn.edu/sbia/software/dramms/}{DRAMMS}) Registration to R}{}{}{}{}
 
-\cventry{}{\href{https://github.com/muschellij2/extrantsr}{extrantsr}: Additional functionality and extensions to the \newline ANTsR R package}{}{}{}{}
+\cventry{}{\href{https://github.com/muschellij2/didactr}{didactr}: Tools for Creating Automated Courses}{}{}{}{}
 
-\cventry{}{\href{https://github.com/muschellij2/neurohcp}{neurohcp}: Human Connectome Project Interface with R}{}{}{}{}
+\cventry{}{\href{https://github.com/muschellij2/flexconnr}{flexconnr}: FLEXCONN Model Wrapped in R
+}{}{}{}{}
+
+\cventry{}{\href{https://github.com/muschellij2/extrantsr}{extrantsr}: Additional functionality and extensions to the \newline ANTsR R package}{}{}{}{}
 
 \cventry{}{\href{https://github.com/muschellij2/rcamino}{rcamino}: R Port of Camino Software}{}{}{}{}
 
@@ -150,4 +154,9 @@ msseg}{msseg}: MS Lesion Segmentation}{}{}{}{}
 \cventry{}{\href{https://github.com/muschellij2/googleCite}{googleCite}: Scraper for Google Citations}{}{}{}{}
 
 \cventry{}{\href{https://github.com/muschellij2/processVISION}{processVISION}: Scripts for Parsing XML from VISION database}{}{}{}{}
+
+
+\cventry{}{\href{https://github.com/muschellij2/sri24}{sri24}: SRI24 Atlas: Normal Adult Brain Anatomy}{}{}{}{}
+
+\cventry{}{\href{https://github.com/muschellij2/sri24}{sri24}: SRI24 Atlas: Normal Adult Brain Anatomy}{}{}{}{}
 
