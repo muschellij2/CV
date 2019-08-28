@@ -15,6 +15,7 @@ ${fname}.pdf: ${fname}.tex education.tex \
 	research_interests.tex \
 	shinyapps.tex \
 	reviewer.tex \
+	podcasts.tex \
 	convert_bibtex.R \
 	submitted.bib \
 	preparation.bib \

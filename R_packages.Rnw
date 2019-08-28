@@ -1,5 +1,6 @@
 
 
+
 <<echo = FALSE, results = "hide", message=FALSE, error=FALSE, warning=FALSE>>=
 if (!require(cranlogs)) {
   library(devtools)
