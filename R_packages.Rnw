@@ -17,17 +17,18 @@ long_today = format(Sys.time(), "%B %d, %Y")
 #           "oasis", "papayar", "rscopus", "spm12r", "WhiteStripe")
 # from crandb
 packs = c("brainR", "cifti", "diffr", "fedreporter", "freesurfer", "fslr",
-"gcite", "gifti", "glassdoor", "kirby21.base", "kirby21.fmri",
-"kirby21.t1", "matlabr", "mscstts", "neurobase", "neurohcp", "neurovault",
-"papayar", "rscopus", "spm12r", "stapler", "WhiteStripe")
+          "gcite", "gifti", "glassdoor", "kirby21.base", "kirby21.fmri",
+          "kirby21.t1", "leanpubr", "matlabr", "mscstts", "neurobase", "neurohcp", "neurovault", "nsrr",
+          "papayar", "rscopus", "spm12r", "stapler", "text2speech", "WhiteStripe")
 # from muschpack
-gh = c("alvin", "biobankr",
-       "dcm2niir", "dcmtk", "didactr", "flexconnr", "dhs", "drammsr",
-       "extrantsr", "ggneuro", "ghtravis",
+gh = c("alvin", "aal", "biobankr", "bftools",
+       "dcm2niir", "dcmtk", "didactr", "flexconnr", "flexconn", "dhs", "drammsr",
+       "extrantsr", "ggneuro", "ghtravis", "penn115",
        "gluc", "greedyreg", "ichseg", "itksnapr",
        "jhudsl", "kirby21.asl", "kirby21.det2", "kirby21.dti",
        "kirby21.flair", "kirby21.mt", "kirby21.smri", "kirby21.survey",
-       "kirby21.t2", "kirby21.vaso", "leanpubr", "lungct", "malf.templates", "msmri",
+       "kirby21.t2", "kirby21.vaso",  "lungct", "malf.templates",
+       "msmri", "mni",  "NiftiArray",
        "neuroc.deps", "neurocInstall", "papayaWidget",  "rcamino",
        "robex", "smri.process",
        "sri24")
@@ -35,8 +36,9 @@ gh = c("alvin", "biobankr",
 packs = sort(unique(packs))
 
 packs = unique(packs)
+stopifnot(!any(packs %in% gh))
 dl = cran_downloads( from = first_date, to = today,
-	packages = packs)
+                     packages = packs)
 dl = ddply(dl, .(package), summarise, count = sum(count))
 desc <- sapply(packs, function(x) {
   fname = system.file("DESCRIPTION", package = x)
@@ -98,12 +100,14 @@ cv_entry = function(package) {
   title = paste(
     tapply(ss, INDEX = n_line, paste, collapse = " "),
     collapse = " \\newline "
-    )
+  )
+  downloads = rep("", length(package))
+  pp = package %in% names(dl)
+  downloads[pp] = dl[package[pp]]
 
   paste0("\\cventry{}{\\href{", url_maker(package),
          "}{", package, "}: ", title,
-         "}{\\newline Downloads: ",
-         dl[package], "}{}{}{}\n")
+         "}{", downloads, "}{}{}{}\n")
 }
 @
 
@@ -132,35 +136,3 @@ for (icn in cn) {
 % \Sexpr{cv_entry("neurobase")}
 %
 % \Sexpr{cv_entry("oasis")}
-
-\cventry{GitHub}{\href{https://github.com/muschellij2/drammsr}{drammsr}: Port of Deformable Registration via Attribute Matching and Mutual-Saliency Weighting (\href{http://www.cbica.upenn.edu/sbia/software/dramms/}{DRAMMS}) Registration to R}{}{}{}{}
-
-\cventry{}{\href{https://github.com/muschellij2/didactr}{didactr}: Tools for Creating Automated Courses}{}{}{}{}
-
-\cventry{}{\href{https://github.com/muschellij2/flexconnr}{flexconnr}: FLEXCONN Model Wrapped in R
-}{}{}{}{}
-
-\cventry{}{\href{https://github.com/muschellij2/extrantsr}{extrantsr}: Additional functionality and extensions to the \newline ANTsR R package}{}{}{}{}
-
-\cventry{}{\href{https://github.com/muschellij2/rcamino}{rcamino}: R Port of Camino Software}{}{}{}{}
-
-\cventry{}{\href{https://github.com/muschellij2/dcmniir}{dcm2niir}: R wrapper for dcm2nii DICOM converter}{}{}{}{}
-
-\cventry{}{\href{https://github.com/muschellij2/
-ichseg}{ichseg}: ICH Segmentation of CT scans}{}{}{}{}
-
-\cventry{}{\href{https://github.com/muschellij2/
-msseg}{msseg}: MS Lesion Segmentation}{}{}{}{}
-
-\cventry{}{\href{https://github.com/muschellij2/googleCite}{googleCite}: Scraper for Google Citations}{}{}{}{}
-
-\cventry{}{\href{https://github.com/muschellij2/processVISION}{processVISION}: Scripts for Parsing XML from VISION database}{}{}{}{}
-
-
-\cventry{}{\href{https://github.com/muschellij2/sri24}{sri24}: SRI24 Atlas: Normal Adult Brain Anatomy}{}{}{}{}
-
-\cventry{}{\href{https://github.com/muschellij2/sri24}{sri24}: SRI24 Atlas: Normal Adult Brain Anatomy}{}{}{}{}
-
-
-\cventry{}{\href{https://github.com/muschellij2/leanpubr}{leanpubr}: Leanpub API Interface for R}{}{}{}{}
-

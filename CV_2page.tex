@@ -17,7 +17,9 @@
 style = authoryear, 
 sorting = none, 
 dashed = false,
-maxbibnames = 99,
+url=false,
+doi=false,
+maxbibnames = 1,
 backend = bibtex
 ]{biblatex}
 
@@ -112,6 +114,14 @@ GitHub: \href{https://github.com/muschellij2}{muschellij2} \\
 \addbibresource{citations.bib}
 \AtEveryBibitem{\clearfield{organization}}    % clears notes
 
+\AtEveryBibitem{%
+  \clearfield{note}%
+}
+
+\AtEveryBibitem{%
+  \clearfield{issn}%
+}
+
 \input{make_authors_bold}
 %\patchcmd{\makecvtitle}{[b]}{[t]}{}{}
 
@@ -120,110 +130,44 @@ GitHub: \href{https://github.com/muschellij2}{muschellij2} \\
 
 %\framebox{\includegraphics[height=60pt, width=60pt]{seeds.png}}
 \maketitle
-\vspace*{-10mm}
+\vspace*{-25mm}
 
-%\section{Research Interests}
-%
-%\input{research_interests.tex}
 
 \section{Education}
 
-\input{education}
+\input{phd}
 
 
 \section{Relevant Experience}
-\input{professional}
+\input{assistant_scientist}
+
+
+
+\begin{refsection}[citations_2019.bib]
+\nocite{*}
+\printbibliography[title={Peer-Reviewed Publications from past 3 years}, prenote=sharedauth]
+\end{refsection}
+
+\begin{refsection}[citations_2018.bib]
+\nocite{*}
+\printbibliography[heading=none]
+\end{refsection}
+
+\begin{refsection}[citations_2017.bib]
+\nocite{*}
+\printbibliography[heading=none]
+\end{refsection}
+
+
 
 \section{Software}
 \subsection{R Packages}
 \input{R_packages}
-\input{github_packages}
-
-\vspace{1em}
-\subsection{Shiny Web Applications}
-\input{shinyapps}
-
-
-
-%
-%\section{Teaching Experience}
-%%
-%\input{teaching}
-%
-%\vspace{.5em}
-%
-%\subsection{Teaching Assistant}
-%\cvitem{}{All teaching assistantships were in the Department of Biostatistics at the Johns Hopkins Bloomberg of Public Health.}
-%\input{teaching_assistant}
-
-
-
-\begin{refsection}[citations.bib]
-\nocite{*}
-\printbibliography[title={Peer-Reviewed Publications}, prenote=sharedauth]
-\end{refsection}
-
 
 \begin{refsection}[submitted.bib]
 \nocite{*}
 \printbibliography[title={Submitted}]
 \end{refsection}
-
-%\begin{refsection}[preparation.bib]
-%\nocite{*}
-%\printbibliography[title={In Preparation}]
-%\end{refsection}
-
-
-
-%\nocite{*}
-
-%\nocite{*}
-%\bibliographystyle{plain}
-%\bibliography{citations}       % 'publications' is the name of a BibTeX file
-
-\section{Working Groups}
-\input{working_groups}
-
-
-
-\section{Talks and Presentations}
-
-\input{talks_and_presentations}
-
-
-
-
-%\section{Skills}
-%\cvcomputer{\textbf{Languages}}{Proficient: R, bash, Stata, MATLAB. \\
-%Beginner: SAS, Python, \href{http://www.cplusplus.com/}{C++}, \href{http://msdn.microsoft.com/en-us/vbasic/default}{Visual Basic}, JavaScript}{}{}{}{}
-%
-%\cvcomputer{\textbf{Markup}}{ \TeX{}, \href{http://www.latex-project.org/}{\LaTeX{}}, B\textsc{ib}\TeX{}, TeXShop, WinEdt, knitr, HTML, CSS}{}{}{}{}
-%
-
-%\section{Academic Service}
-%
-%
-%\input{academic_service}
-
-
-
-
-
-
-
-
-
-%Operating Systems: 
-%\setlength{\parindent}{0.5in}
-%
-%\indent Proficient: Microsoft Windows XP/2000/Vista, Mac OS X.
-%
-%\indent Novice: Linux CentOS5
-%\setlength{\parindent}{0in}
-
-
-
 
 
  
