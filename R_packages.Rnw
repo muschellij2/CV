@@ -31,7 +31,7 @@ gh = c("alvin", "aal", "biobankr", "bftools",
        "msmri", "mni",  "NiftiArray",
        "neuroc.deps", "neurocInstall", "papayaWidget",  "rcamino",
        "robex", "smri.process",
-       "sri24")
+       "sri24",  "pygt3x", "ctseg", "distribglm")
 # packs = c(packs, gh)
 packs = sort(unique(packs))
 

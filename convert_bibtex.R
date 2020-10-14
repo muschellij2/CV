@@ -75,9 +75,16 @@ for (ind in seq_along(x)) {
 
 
 write.bib(entry = x, file = bibfile)
-# outfile = gsub("[.]bib", "_fixed.bib", bibfile)
-# write.bib(entry=x, file= outfile)
 
-# x = readLines(outfile)
-# x = gsub("Muschelli", "\\\\textbf{Muschelli}", x)
-# writeLines(x, con=outfile)
+
+yrs = as.numeric(sapply(x, function(xx){
+  xx$year
+}))
+ss= split(x, yrs)
+
+lapply(names(ss), function(yr) {
+  xxx = ss[[yr]]
+  ofile = paste0("citations_", yr, ".bib")
+  write.bib(entry = xxx, file = ofile)
+  return(NULL)
+})
