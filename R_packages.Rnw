@@ -21,17 +21,19 @@ packs = c("brainR", "cifti", "diffr", "fedreporter", "freesurfer", "fslr",
           "kirby21.t1", "leanpubr", "matlabr", "mscstts", "neurobase", "neurohcp", "neurovault", "nsrr",
           "papayar", "rscopus", "spm12r", "stapler", "text2speech", "WhiteStripe")
 # from muschpack
-gh = c("alvin", "aal", "biobankr", "bftools",
+gh = c("alvin", "aal", "biobankr", "bftools", "ariExtra",
        "dcm2niir", "dcmtk", "didactr", "flexconnr", "flexconn", "dhs", "drammsr",
        "extrantsr", "ggneuro", "ghtravis", "penn115",
        "gluc", "greedyreg", "ichseg", "itksnapr",
        "jhudsl", "kirby21.asl", "kirby21.det2", "kirby21.dti",
        "kirby21.flair", "kirby21.mt", "kirby21.smri", "kirby21.survey",
        "kirby21.t2", "kirby21.vaso",  "lungct", "malf.templates",
+       "mario",
        "msmri", "mni",  "NiftiArray",
        "neuroc.deps", "neurocInstall", "papayaWidget",  "rcamino",
        "robex", "smri.process",
-       "sri24",  "pygt3x", "ctseg", "distribglm")
+       "sri24",  "pygt3x", "pycwa", "ctseg", "distribglm",
+       "weartime", "read.cwa")
 # packs = c(packs, gh)
 packs = sort(unique(packs))
 
