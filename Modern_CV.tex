@@ -5,6 +5,7 @@
 \setmainfont[Ligatures=TeX]{Arial}    %% change to any available .ttf or .otf font
 
 %\moderncvtheme[blue]{casual}                 
+%\usepackage{newtxtext}    %% or newtxtext for times  or libertine for libertine
 
 
 % character encoding
@@ -20,9 +21,12 @@ style = authoryear,
 sorting = none, 
 dashed = false,
 maxbibnames = 99,
-backend = bibtex
+backend = bibtex,
+defernumbers=true
 ]{biblatex}
 
+
+\defbibheading{subbibliography}[\refname]{\subsection*{#1}}
 \DeclareFieldFormat{titlecase}{\MakeTitleCase{#1}}
 
 \newrobustcmd{\MakeTitleCase}[1]{%
@@ -48,6 +52,12 @@ backend = bibtex
 \newcommand*{\bibyear}{}
 \renewbibmacro{in:}{}
 
+\newcommand{\mydot}[1]{\begin{enumerate}[label=$\circ$,leftmargin=\parindent]\setlength{\itemsep}{#1}}
+\newcommand{\ee}{\end{enumerate}}
+
+% From https://tex.stackexchange.com/questions/213872/how-to-use-subsubsection-in-moderncv-class
+\input{subsubsection-moderncv}
+
 % from http://tex.stackexchange.com/questions/123805/creating-bibliographies-with-biblatex-and-moderncv
 \defbibenvironment{bibliography}
   {\list
@@ -65,24 +75,26 @@ backend = bibtex
   {\endlist}
   {\item}
 
-
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
 
 % personal data
-\firstname{John}
-\familyname{Muschelli}
-\title{Associate Scientist}
+\firstname{Curriculum}
+\familyname{Vitae}
+\title{John Muschelli, PhD, ScM}
 % \newline Johns Hopkins \newline Bloomberg School of Public Health}               % optional, remove the line if not wanted
 %\address{STREET}{CITY STATE ZIP}    % optional, remove the line if not wanted
 %\phone{‪(443) 731-6703‬}                      % optional, remove the line if not wanted
 %\fax{fax (optional)}                          % optional, remove the line if not wanted
-\email{muschellij2@gmail.com}                      % optional, remove the line if not wanted
+%\email{muschellij2 [at] gmail.com}                      % optional, remove the line if not wanted
 %\homepage{}                % optional, remove the line if not wanted
-\extrainfo{\href{http://johnmuschelli.com}{http://johnmuschelli.com}\\
-Blog: \href{https://hopstat.wordpress.com/}{A HopStat and Jump Away} \\ % optional, remove the line if not wanted
+%\extrainfo{\href{http://johnmuschelli.com}{http://johnmuschelli.com}\\
+%Blog: \href{https://hopstat.wordpress.com/}{A HopStat and Jump Away} \\ % optional, remove the line if not wanted
 %Twitter: \href{https://twitter.com/StrictlyStat}{@StrictlyStat} \\
-GitHub: \href{https://github.com/muschellij2}{muschellij2} \\
+%GitHub: \href{https://github.com/muschellij2}{muschellij2} \\
 %Skype: muschellij2 
-} % optional, remove the line if not wanted
+%} % optional, remove the line if not wanted
 %\photo[64pt]{seeds.png}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
 
 %\usepackage{multibib}
@@ -125,50 +137,67 @@ GitHub: \href{https://github.com/muschellij2}{muschellij2} \\
 \maketitle
 \vspace{-3em}
 
+\section{Professional Data}
+
+He/Him \\
+Email: \href{mailto:jmusche1@jh.edu}{jmusche1 [at] jh.edu} /  \href{mailto:muschellij2@gmail.com}{muschellij2 [at] gmail.com} \\                      % optional, remove the line if not wanted
+%\homepage{}                % optional, remove the line if not wanted
+Homepage: \href{http://johnmuschelli.com}{http://johnmuschelli.com}\\
+Blog: \href{https://hopstat.wordpress.com/}{A HopStat and Jump Away} \\ % optional, remove the line if not wanted
+%Twitter: \href{https://twitter.com/StrictlyStat}{@StrictlyStat} \\
+GitHub: \href{https://github.com/muschellij2}{muschellij2} \\
 
 
-
-\section{Education}
+\section{Education and Training}
 
 \input{education}
 
 \section{Professional Experience}
+\subsection{Johns Hopkins University}
+
 \input{professional}
 
-\section{Mentorship}
+\subsection{Other Non-JHU Professional Experience}
+\cventry{2021--2023}{Chief Technical Officer}{}{Streamline Data Science}{\url{https://www.streamlinedatascience.io/}. (Startup folded)}{}
+\vspace{1em}
+
+\section{Professional Activities}
+\input{membership}
+
+
+\section{Editorial and Other Peer Review Activities}
+
+\input{reviewer}
+
+
+\section{Honors and Awards}
 %
-\input{advising}
-
-\section{Research Interests}
-
-\input{research_interests.tex}
-
-
-\section{Teaching Experience}
-%
-\input{teaching}
-
-\vspace{.5em}
-
-\subsection{Teaching Assistant}
-\cvitem{}{All teaching assistantships were in the Department of Biostatistics at the Johns Hopkins Bloomberg of Public Health.}
-\input{teaching_assistant}
-
-\section{Working Groups}
-\input{working_groups}
+%\href{http://www.scranton.edu}{The University of Scranton}
+\cventry{2014}{SOURCE (Student Outreach Resource Center) Community Service Award}{}{}{}{}
+\cventry{2011}{Member of the winning team of the \href{http://fcon_1000.projects.nitrc.org/indi/adhd200/results.html}{ADHD 200 Competition}: \newline a competition of develop diagnostic classification tools for ADHD diagnosis based on imaging of the brain}{}{}{}{}
+\cventry{2004--2008}{Presidential Scholar (Full Tuition Scholarship)}{}{}{}{}
+\cventry{2004--2008}{Dean's List}{}{}{}{}
+\cventry{2008}{Alpha Sigma Nu}{}{}{}{}
+\cventry{2004}{Alpha Lambda Delta}{}{}{}{}
 
 
-\begin{refsection}[books.bib]
-\nocite{*}
-\printbibliography[title={Books}]
-\end{refsection}
 
+\section{Publications}
 
 \begin{refsection}[citations.bib]
 \nocite{*}
-\printbibliography[title={Peer-Reviewed Publications}, prenote=sharedauth]
+\printbibliography[title={Peer-Reviewed Publications}, heading=subbibliography]
 \end{refsection}
 
+\begin{refsection}[books.bib]
+\nocite{*}
+\printbibliography[title={Books}, heading=subbibliography]
+\end{refsection}
+
+\begin{refsection}[chapters.bib]
+\nocite{*}
+\printbibliography[title={Chapters}, heading=subbibliography]
+\end{refsection}
 
 %\begin{refsection}[submitted.bib]
 %\nocite{*}
@@ -182,146 +211,71 @@ GitHub: \href{https://github.com/muschellij2}{muschellij2} \\
 %\end{refsection}
 
 
-
-%\nocite{*}
-
-%\nocite{*}
-%\bibliographystyle{plain}
-%\bibliography{citations}       % 'publications' is the name of a BibTeX file
-
-\section{Journal Reviewer}
-
-\input{reviewer}
-
-\section{Talks and Presentations}
-
-\input{talks_and_presentations}
-
-\section{Podcasts}
+\section{Practice Activities}
+\subsection{Podcasts}
 
 \input{podcasts}
 
 
 
-\section{Software}
-\subsection{R Packages}
+\subsection{Software}
+\subsubsection{R Packages}
 \input{R_packages}
 \input{github_packages}
 
-
 \vspace{1em}
-\subsection{Shiny Web Applications}
+\subsubsection{Shiny Web Applications}
 \input{shinyapps}
 
 
-\section{Skills}
-\cvcomputer{\textbf{Languages}}{Proficient: R (including Shiny), bash, Stata, MATLAB. \\
-Beginner: SAS, Python, \href{http://www.cplusplus.com/}{C++}, \href{http://msdn.microsoft.com/en-us/vbasic/default}{Visual Basic}, JavaScript}{}{}{}{}
 
-\cvcomputer{\textbf{Markup}}{ \TeX{}, \href{http://www.latex-project.org/}{\LaTeX{}}, B\textsc{ib}\TeX{}, TeXShop, WinEdt, knitr, HTML, CSS}{}{}{}{}
+\section{Teaching}
 
-
-
-\section{Honors and Awards}
+\subsection{Advising}
 %
-%\href{http://www.scranton.edu}{The University of Scranton}
-\cventry{2014}{SOURCE (Student Outreach Resource Center) Community Service Award}{}{}{}{}
-\cventry{2011}{Member of the winning team of the \href{http://fcon_1000.projects.nitrc.org/indi/adhd200/results.html}{ADHD 200 Competition}: \newline a competition of develop diagnostic classification tools for ADHD diagnosis based on imaging of the brain}{}{}{}{}
-\cventry{2004--2008}{Presidential Scholar (Full Tuition Scholarship)}{}{}{}{}
-\cventry{2004--2008}{Dean's List}{}{}{}{}
-\cventry{2008}{Alpha Sigma Nu}{}{}{}{}
-\cventry{2004}{Alpha Lambda Delta}{}{}{}{}
+\input{advising}
 
-\section{Additional Experience}
-\input{hackathons}
+\input{teaching}
 
-%\section{Teaching Experience}
-%\href{http://www.jhsph.edu}{\textbf{Johns Hopkins School of Public Health}},
-%Baltimore, Maryland USA
-%\begin{outerlist}
+\vspace{.5em}
+
+\subsection{Teaching Assistant}
+\cvitem{}{All teaching assistantships were in the Department of Biostatistics at the Johns Hopkins Bloomberg of Public Health.}
+\input{teaching_assistant}
+
+
+%\section{Research Interests}
 %
-%\item[] \textit{Teaching Assistant}%
-%    \hfill \textbf{September 2010 to Present}
-%    \begin{innerlist}
-%        \item Biostatistics 621-4: Statistical Methods in Public Health I-IV
-%        \begin{innerlist}
-%            \item Responsible for 1~hour lab Stata session, 1~hour office hour, and grading homework, quizzes, and tests.
-%            \end{innerlist}~
-%  \hfill \textbf{September 2009 to May 2010}
-%        \item Biostatistics 651-4: Methods in Biostatistics I-IV
-%        \begin{innerlist}
-%            \item Responsible for 1~hour lab helping session, and grading homework and tests.
-%            \end{innerlist}~
-%  \hfill \textbf{January 2010}
-%        \item Biostatistics 613-4: Data Analysis Workshop I-II
-%        \begin{innerlist}
-%             \item Responsible for 4~hour lab and teaching session, helping students to get comfortable with Stata programming and interpreting results from output.
-%
-%        \end{innerlist}~
-%    \end{innerlist}
-%
-%\item[] \textit{Graduate Tutor}%
-%        \hfill \textbf{September 2009 to Present}
-%\begin{innerlist}
-%\item Tutored students in statistics on coursework and statistical dissertation material.
-%\end{innerlist}
-%\item[] \textit{Undergraduate Tutor}%
-%        \hfill \textbf{March 2005 to May 2008}
-%\begin{innerlist}
-%\item Tutored students regarding mathematics, statistics and other science courses.
-%\end{innerlist}
-%        
-%\end{outerlist}
+%\input{research_interests.tex}
+
+
+
+%\section{Working Groups}
+%\input{working_groups}
+
+
+\section{Research Grant Participation}
+\input{grants}
+
+\subsection{Completed Support}
+\input{completed_grants}
 
 \section{Academic Service}
-
-
 \input{academic_service}
+
+\section{Presentations}
+
+\input{talks_and_presentations}
+
+%\section{Skills}
+%\cvcomputer{\textbf{Languages}}{Proficient: R (including Shiny), bash, Stata, MATLAB. \\
+%Beginner: SAS, Python, \href{http://www.cplusplus.com/}{C++}, \href{http://msdn.microsoft.com/en-us/vbasic/default}{Visual Basic}, JavaScript}{}{}{}{}
 %
-%
-%\href{www.scranton.edu}{University of Scranton}
-%\begin{outerlist}
-%\item[] \textit{Master of Ceremonies}
-%  \hfill \textbf{2005--2008}
-%\item Midnight Madness is a kickoff campaign for the basketball season and a food-raising activity for local food kitchens.  \item \href{http://www.theofficeconvention.com/}{The Office Convention} was an event where members of the television show The Office came to Scranton, students  entertained crowds in between events on the stages.  
-%\item Quizzo and Royal Feud are trivia games that are fundraisers for international and domestic service programs. 
-%\end{outerlist}
-%
-%
-%
-%\href{http://academic.scranton.edu/organization/edjustice/events.shtml}{F.I.R.S.T. (Freshmen In Reflective Service Together)}
-%\begin{outerlist}
-%\item[] \textit{Leader} 
-% \hfill \textbf{2007}
-%\item Led a service trip as a senior that welcomes incoming freshmen to participate in volunteer service at the University of Scranton.
-%\item Each team does service at various sites around the city of Scranton, namely Head Start, Little People Day Care, Lackawanna County Health Care Center.
-%\end{outerlist}
-%
-%
-%
-%Saint Francis of Assisi Soup Kitchen, Scranton, PA
-%\begin{outerlist}
-%\item[] \textit{Volunteer}
-%\hfill \textbf{2004--2005}
-%\item Volunteered working with those running the soup kitchen.
-%\item Tasks ranged from cleaning dishes to handing out food.
-%\end{outerlist}
-%
+%\cvcomputer{\textbf{Markup}}{ \TeX{}, \href{http://www.latex-project.org/}{\LaTeX{}}, B\textsc{ib}\TeX{}, TeXShop, WinEdt, knitr, HTML, CSS}{}{}{}{}
 
 
-
-
-
-
-
-
-%Operating Systems: 
-%\setlength{\parindent}{0.5in}
-%
-%\indent Proficient: Microsoft Windows XP/2000/Vista, Mac OS X.
-%
-%\indent Novice: Linux CentOS5
-%\setlength{\parindent}{0in}
+%\section{Additional Experience}
+%\input{hackathons}
 
 
 

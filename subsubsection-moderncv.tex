@@ -1,0 +1,16 @@
+\setcounter{secnumdepth}{5}
+
+\renewcommand*{\sectionfont}{\Large\mdseries\upshape}
+\renewcommand*{\subsectionfont}{\large\mdseries\upshape}
+\newcommand*{\subsubsectionfont}{\large\mdseries\itshape}% New subsubsection font
+\newcommand*{\subsubsectionstyle}[1]{{\subsubsectionfont\textcolor{color1}{#1}}}
+\makeatletter
+\NewDocumentCommand{\subsubsection}{sm}{%
+  \par\addvspace{1ex}%
+  \phantomsection{}% reset the anchor for hyperrefs
+  \addcontentsline{toc}{subsubsection}{#2}%
+  \begin{tabular}{@{}p{\hintscolumnwidth}@{\hspace{\separatorcolumnwidth}}p{\maincolumnwidth}@{}}%
+    \raggedleft\hintstyle{} &{\strut\subsubsectionstyle{#2}}%
+  \end{tabular}%
+  \par\nobreak\addvspace{0.5ex}\@afterheading}% to avoid a pagebreak after the heading
+\makeatother
