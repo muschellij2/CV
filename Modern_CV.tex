@@ -75,6 +75,19 @@ defernumbers=true
   {\endlist}
   {\item}
 
+\defbibenvironment{peerbibliography}
+  {\list
+     {\mkbibbrackets{\printfield{labelnumber}}}
+     {\setlength{\topsep}{0pt}%
+      \setlength{\labelwidth}{\hintscolumnwidth}%
+      \setlength{\labelsep}{\separatorcolumnwidth}%
+      \setlength{\itemsep}{\bibitemsep}%
+      \leftmargin\labelwidth%
+      \advance\leftmargin\labelsep}%
+      \sloppy\clubpenalty4000\widowpenalty4000}
+  {\endlist}
+  {\item}
+
 \makeatletter
 \renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
 \makeatother
@@ -174,6 +187,7 @@ Proposal Peer Reviews
 
 \begin{refsection}[citations.bib]
 \nocite{*}
+%\printbibliography[title={Peer-Reviewed Publications}, heading=subbibliography, env=peerbibliography]
 \printbibliography[title={Peer-Reviewed Publications}, heading=subbibliography]
 \end{refsection}
 
